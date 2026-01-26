@@ -1,0 +1,10 @@
+data_path: '/home/pedro/Documents/Documents/projects/pointcloud/h3d/2019/data_corrected/down/'
+features_to_use:
+  - surface_variation
+  - sphericity
+  - verticality
+
+transdict: {} 
+model_name: 'xgboost'  
+model_output_path: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/xg_allc_pkl'   
+

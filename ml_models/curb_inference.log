@@ -1,0 +1,346 @@
+2026-01-23 16:53:55,576 - INFO - Starting main execution
+2026-01-23 16:53:55,577 - INFO - Parsing configuration file
+2026-01-23 16:53:55,579 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_xg_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/curb_xg.las'}
+2026-01-23 16:53:55,835 - INFO - Point cloud loaded with shape: (4836316, 6)
+2026-01-23 16:53:55,835 - INFO - Extracting features with radius: 0.2
+2026-01-23 16:54:03,163 - INFO - Extracting features with radius: 0.3
+2026-01-23 16:54:11,235 - INFO - Extracting features with radius: 0.5
+2026-01-23 16:54:23,733 - INFO - Extracting features with radius: 0.7
+2026-01-23 16:54:46,273 - INFO - Features extracted with shape: (4835920, 34)
+2026-01-23 16:54:47,038 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_xg_final_26.pkl
+2026-01-23 16:54:52,232 - INFO - Predictions made with shape: (4835920,)
+2026-01-23 16:54:52,232 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/curb_xg.las
+2026-01-23 16:54:52,232 - ERROR - Error writing file to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/curb_xg.las
+2026-01-23 16:54:52,232 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/curb_xg.las'
+2026-01-23 16:56:25,295 - INFO - Starting main execution
+2026-01-23 16:56:25,296 - INFO - Parsing configuration file
+2026-01-23 16:56:25,296 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_xg_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhause_curb/xg.las'}
+2026-01-23 16:56:25,529 - INFO - Point cloud loaded with shape: (4836316, 6)
+2026-01-23 16:56:25,529 - INFO - Extracting features with radius: 0.2
+2026-01-23 16:56:32,971 - INFO - Extracting features with radius: 0.3
+2026-01-23 16:56:42,067 - INFO - Extracting features with radius: 0.5
+2026-01-23 16:56:55,965 - INFO - Extracting features with radius: 0.7
+2026-01-23 16:57:20,375 - INFO - Features extracted with shape: (4835920, 34)
+2026-01-23 16:57:20,934 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_xg_final_26.pkl
+2026-01-23 16:57:26,240 - INFO - Predictions made with shape: (4835920,)
+2026-01-23 16:57:26,240 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhause_curb/xg.las
+2026-01-23 16:57:54,180 - INFO - Starting main execution
+2026-01-23 16:57:54,180 - INFO - Parsing configuration file
+2026-01-23 16:57:54,181 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_xg_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/xg.las'}
+2026-01-23 16:57:54,397 - INFO - Point cloud loaded with shape: (4320900, 6)
+2026-01-23 16:57:54,397 - INFO - Extracting features with radius: 0.2
+2026-01-23 16:58:03,010 - INFO - Extracting features with radius: 0.3
+2026-01-23 16:58:15,046 - INFO - Extracting features with radius: 0.5
+2026-01-23 16:58:36,739 - INFO - Extracting features with radius: 0.7
+2026-01-23 16:59:15,437 - INFO - Features extracted with shape: (4320722, 34)
+2026-01-23 16:59:16,006 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_xg_final_26.pkl
+2026-01-23 16:59:21,763 - INFO - Predictions made with shape: (4320722,)
+2026-01-23 16:59:21,764 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/xg.las
+2026-01-23 17:00:12,124 - INFO - Starting main execution
+2026-01-23 17:00:12,125 - INFO - Parsing configuration file
+2026-01-23 17:00:12,125 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las'}
+2026-01-23 17:00:12,339 - INFO - Point cloud loaded with shape: (4320900, 6)
+2026-01-23 17:00:12,339 - INFO - Extracting features with radius: 0.2
+2026-01-23 17:00:19,731 - INFO - Extracting features with radius: 0.3
+2026-01-23 17:00:29,679 - INFO - Extracting features with radius: 0.5
+2026-01-23 17:00:48,243 - INFO - Extracting features with radius: 0.7
+2026-01-23 17:01:25,280 - INFO - Features extracted with shape: (4320722, 34)
+2026-01-23 17:01:26,031 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-23 17:01:34,802 - INFO - Predictions made with shape: (4320722,)
+2026-01-23 17:01:34,802 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las
+2026-01-23 17:01:53,258 - INFO - Starting main execution
+2026-01-23 17:01:53,259 - INFO - Parsing configuration file
+2026-01-23 17:01:53,260 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las'}
+2026-01-23 17:01:53,502 - INFO - Point cloud loaded with shape: (4836316, 6)
+2026-01-23 17:01:53,502 - INFO - Extracting features with radius: 0.2
+2026-01-23 17:02:03,495 - INFO - Extracting features with radius: 0.3
+2026-01-23 17:02:16,433 - INFO - Extracting features with radius: 0.5
+2026-01-23 17:02:34,940 - INFO - Extracting features with radius: 0.7
+2026-01-23 17:03:04,846 - INFO - Features extracted with shape: (4835920, 34)
+2026-01-23 17:03:05,527 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-23 17:03:15,252 - INFO - Predictions made with shape: (4835920,)
+2026-01-23 17:03:15,252 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las
+2026-01-23 17:08:20,497 - INFO - Starting main execution
+2026-01-23 17:08:20,498 - INFO - Parsing configuration file
+2026-01-23 17:08:20,498 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las'}
+2026-01-23 17:08:20,730 - INFO - Point cloud loaded with shape: (4836316, 6)
+2026-01-23 17:08:20,730 - INFO - Extracting features with radius: 0.2
+2026-01-23 17:08:27,758 - INFO - Extracting features with radius: 0.3
+2026-01-23 17:08:35,694 - INFO - Extracting features with radius: 0.5
+2026-01-23 17:08:46,628 - INFO - Extracting features with radius: 0.7
+2026-01-23 17:09:04,245 - INFO - Features extracted with shape: (4835920, 34)
+2026-01-23 17:09:04,828 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-23 17:09:10,944 - INFO - Predictions made with shape: (4835920,)
+2026-01-23 17:09:11,108 - INFO - Filtered predictions shape: (4799002,)
+2026-01-23 17:09:11,108 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las
+2026-01-23 17:12:38,312 - INFO - Starting main execution
+2026-01-23 17:12:38,313 - INFO - Parsing configuration file
+2026-01-23 17:12:38,313 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las'}
+2026-01-23 17:12:38,546 - INFO - Point cloud loaded with shape: (4836316, 6)
+2026-01-23 17:12:38,546 - INFO - Extracting features with radius: 0.2
+2026-01-23 17:12:45,621 - INFO - Extracting features with radius: 0.3
+2026-01-23 17:12:53,567 - INFO - Extracting features with radius: 0.5
+2026-01-23 17:13:04,597 - INFO - Extracting features with radius: 0.7
+2026-01-23 17:13:22,533 - INFO - Features extracted with shape: (4835920, 34)
+2026-01-23 17:13:23,154 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-23 17:13:29,582 - INFO - Predictions made with shape: (4835920,)
+2026-01-23 17:13:29,583 - INFO - Filtered predictions shape: (4835920,)
+2026-01-23 17:13:29,583 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las
+2026-01-23 17:14:37,965 - INFO - Starting main execution
+2026-01-23 17:14:37,965 - INFO - Parsing configuration file
+2026-01-23 17:14:37,966 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las'}
+2026-01-23 17:14:38,205 - INFO - Point cloud loaded with shape: (4836316, 6)
+2026-01-23 17:14:38,205 - INFO - Extracting features with radius: 0.2
+2026-01-23 17:14:45,417 - INFO - Extracting features with radius: 0.3
+2026-01-23 17:14:53,603 - INFO - Extracting features with radius: 0.5
+2026-01-23 17:15:05,535 - INFO - Extracting features with radius: 0.7
+2026-01-23 17:15:26,370 - INFO - Features extracted with shape: (4835920, 34)
+2026-01-23 17:15:26,970 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-23 17:15:33,888 - INFO - Predictions made with shape: (4835920,)
+2026-01-23 17:15:33,888 - INFO - Filtered predictions shape: (4835920,)
+2026-01-23 17:15:33,888 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las
+2026-01-23 17:15:34,275 - ERROR - Error writing file to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las
+2026-01-23 17:15:34,276 - ERROR - An error occurred: add_extra_dim is not a valid dimension
+2026-01-23 17:16:35,526 - INFO - Starting main execution
+2026-01-23 17:16:35,526 - INFO - Parsing configuration file
+2026-01-23 17:16:35,527 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las'}
+2026-01-23 17:16:35,763 - INFO - Point cloud loaded with shape: (4836316, 6)
+2026-01-23 17:16:35,764 - INFO - Extracting features with radius: 0.2
+2026-01-23 17:16:43,259 - INFO - Extracting features with radius: 0.3
+2026-01-23 17:16:51,707 - INFO - Extracting features with radius: 0.5
+2026-01-23 17:17:04,430 - INFO - Extracting features with radius: 0.7
+2026-01-23 17:17:25,690 - INFO - Features extracted with shape: (4835920, 34)
+2026-01-23 17:17:26,284 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-23 17:17:34,039 - INFO - Predictions made with shape: (4835920,)
+2026-01-23 17:17:34,040 - INFO - Filtered predictions shape: (4835920,)
+2026-01-23 17:17:34,040 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las
+2026-01-23 17:18:57,978 - INFO - Starting main execution
+2026-01-23 17:18:57,978 - INFO - Parsing configuration file
+2026-01-23 17:18:57,979 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las'}
+2026-01-23 17:18:58,190 - INFO - Point cloud loaded with shape: (4320900, 6)
+2026-01-23 17:18:58,190 - INFO - Extracting features with radius: 0.2
+2026-01-23 17:19:05,518 - INFO - Extracting features with radius: 0.3
+2026-01-23 17:19:15,014 - INFO - Extracting features with radius: 0.5
+2026-01-23 17:19:31,455 - INFO - Extracting features with radius: 0.7
+2026-01-23 17:20:02,345 - INFO - Features extracted with shape: (4320722, 34)
+2026-01-23 17:20:02,948 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-23 17:20:10,161 - INFO - Predictions made with shape: (4320722,)
+2026-01-23 17:20:10,161 - INFO - Filtered predictions shape: (4320722,)
+2026-01-23 17:20:10,161 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las
+2026-01-26 12:05:37,743 - INFO - Starting main execution
+2026-01-26 12:05:37,761 - INFO - Parsing configuration file
+2026-01-26 12:05:37,762 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las'}
+2026-01-26 12:05:37,920 - INFO - Point cloud loaded with shape: (3384405, 6)
+2026-01-26 12:05:37,920 - INFO - Extracting features with radius: 0.2
+2026-01-26 12:05:43,021 - INFO - Extracting features with radius: 0.3
+2026-01-26 12:05:49,395 - INFO - Extracting features with radius: 0.5
+2026-01-26 12:06:00,165 - INFO - Extracting features with radius: 0.7
+2026-01-26 12:06:17,362 - INFO - Features extracted with shape: (3384279, 34)
+2026-01-26 12:06:19,782 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-26 12:06:23,289 - INFO - Predictions made with shape: (3384279,)
+2026-01-26 12:06:23,290 - INFO - Filtered predictions shape: (3384279,)
+2026-01-26 12:06:23,290 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las
+2026-01-26 12:12:09,940 - INFO - Starting main execution
+2026-01-26 12:12:09,940 - INFO - Parsing configuration file
+2026-01-26 12:12:09,941 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las'}
+2026-01-26 12:12:10,093 - INFO - Point cloud loaded with shape: (3384405, 6)
+2026-01-26 12:12:10,093 - INFO - Extracting features with radius: 0.2
+2026-01-26 12:12:15,139 - INFO - Extracting features with radius: 0.3
+2026-01-26 12:12:21,509 - INFO - Extracting features with radius: 0.5
+2026-01-26 12:12:32,082 - INFO - Extracting features with radius: 0.7
+2026-01-26 12:12:49,447 - INFO - Features extracted with shape: (3384279, 34)
+2026-01-26 12:12:49,745 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-26 12:12:53,134 - INFO - Predictions made with shape: (3384279,)
+2026-01-26 12:12:53,134 - INFO - Filtered predictions shape: (3384279,)
+2026-01-26 12:12:53,134 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las
+2026-01-26 12:12:55,138 - INFO - Filtered 22974 points with classification 1
+2026-01-26 12:12:55,150 - INFO - Downsampled to 663 points
+2026-01-26 12:12:55,151 - ERROR - An error occurred: object of type 'int' has no len()
+2026-01-26 12:13:52,534 - INFO - Starting main execution
+2026-01-26 12:13:52,534 - INFO - Parsing configuration file
+2026-01-26 12:13:52,535 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las'}
+2026-01-26 12:13:52,688 - INFO - Point cloud loaded with shape: (3384405, 6)
+2026-01-26 12:13:52,689 - INFO - Extracting features with radius: 0.2
+2026-01-26 12:13:57,772 - INFO - Extracting features with radius: 0.3
+2026-01-26 12:14:04,222 - INFO - Extracting features with radius: 0.5
+2026-01-26 12:14:15,129 - INFO - Extracting features with radius: 0.7
+2026-01-26 12:14:32,642 - INFO - Features extracted with shape: (3384279, 34)
+2026-01-26 12:14:32,943 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-26 12:14:36,435 - INFO - Predictions made with shape: (3384279,)
+2026-01-26 12:14:36,435 - INFO - Filtered predictions shape: (3384279,)
+2026-01-26 12:14:36,435 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las
+2026-01-26 12:14:38,385 - INFO - Filtered 22974 points with classification 1
+2026-01-26 12:14:38,396 - INFO - Downsampled to 663 points
+2026-01-26 12:14:38,397 - ERROR - An error occurred: object of type 'int' has no len()
+2026-01-26 12:15:23,807 - INFO - Starting main execution
+2026-01-26 12:15:23,807 - INFO - Parsing configuration file
+2026-01-26 12:15:23,808 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las'}
+2026-01-26 12:15:23,960 - INFO - Point cloud loaded with shape: (3384405, 6)
+2026-01-26 12:15:23,960 - INFO - Extracting features with radius: 0.2
+2026-01-26 12:15:29,045 - INFO - Extracting features with radius: 0.3
+2026-01-26 12:15:35,530 - INFO - Extracting features with radius: 0.5
+2026-01-26 12:15:46,203 - INFO - Extracting features with radius: 0.7
+2026-01-26 12:16:03,518 - INFO - Features extracted with shape: (3384279, 34)
+2026-01-26 12:16:03,816 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-26 12:16:07,300 - INFO - Predictions made with shape: (3384279,)
+2026-01-26 12:16:07,300 - INFO - Filtered predictions shape: (3384279,)
+2026-01-26 12:16:07,300 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las
+2026-01-26 12:16:09,290 - INFO - Filtered 22974 points with classification 1
+2026-01-26 12:16:09,302 - INFO - Downsampled to 663 points
+2026-01-26 12:16:09,303 - INFO - Saved curb points to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf_curb_class1.las
+2026-01-26 12:16:09,641 - INFO - Created 663 records
+2026-01-26 12:16:09,642 - INFO - Saved shapefile to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf_curb_class1.shp
+2026-01-26 12:19:48,236 - INFO - Starting main execution
+2026-01-26 12:19:48,236 - INFO - Parsing configuration file
+2026-01-26 12:19:48,237 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las', 'crs': 'EPSG:25832'}
+2026-01-26 12:19:48,406 - INFO - Point cloud loaded with shape: (3735854, 6)
+2026-01-26 12:19:48,406 - INFO - Extracting features with radius: 0.2
+2026-01-26 12:19:53,351 - INFO - Extracting features with radius: 0.3
+2026-01-26 12:19:58,807 - INFO - Extracting features with radius: 0.5
+2026-01-26 12:20:06,453 - INFO - Extracting features with radius: 0.7
+2026-01-26 12:20:17,809 - INFO - Features extracted with shape: (3735590, 34)
+2026-01-26 12:20:18,110 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-26 12:20:21,996 - INFO - Predictions made with shape: (3735590,)
+2026-01-26 12:20:21,996 - INFO - Filtered predictions shape: (3735590,)
+2026-01-26 12:20:21,996 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las
+2026-01-26 12:20:22,646 - INFO - Filtered 15165 points with classification 1
+2026-01-26 12:20:22,653 - INFO - Downsampled to 1351 points
+2026-01-26 12:20:22,655 - INFO - Saved curb points to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf_curb_class1.las
+2026-01-26 12:20:22,690 - INFO - Created 1,351 records
+2026-01-26 12:20:22,690 - INFO - Saved shapefile to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf_curb_class1.shp
+2026-01-26 12:24:44,996 - INFO - Starting main execution
+2026-01-26 12:24:44,996 - INFO - Parsing configuration file
+2026-01-26 12:24:44,997 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las', 'crs': 'EPSG:25832', 'saturation_filter': 0.2}
+2026-01-26 12:24:45,165 - INFO - Point cloud loaded with shape: (3735854, 6)
+2026-01-26 12:24:45,165 - INFO - Extracting features with radius: 0.2
+2026-01-26 12:24:50,139 - INFO - Extracting features with radius: 0.3
+2026-01-26 12:24:55,781 - INFO - Extracting features with radius: 0.5
+2026-01-26 12:25:03,656 - INFO - Extracting features with radius: 0.7
+2026-01-26 12:25:15,280 - INFO - Features extracted with shape: (3735590, 34)
+2026-01-26 12:25:15,577 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-26 12:25:19,525 - INFO - Predictions made with shape: (3735590,)
+2026-01-26 12:25:19,525 - INFO - Filtered predictions shape: (3735590,)
+2026-01-26 12:25:19,525 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las
+2026-01-26 12:25:22,661 - INFO - Filtered 15165 points with classification 1
+2026-01-26 12:25:22,667 - ERROR - An error occurred: boolean index did not match indexed array along dimension 0; dimension is 3735590 but corresponding boolean dimension is 3735854
+2026-01-26 12:26:36,400 - INFO - Starting main execution
+2026-01-26 12:26:36,401 - INFO - Parsing configuration file
+2026-01-26 12:26:36,401 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las', 'crs': 'EPSG:25832', 'saturation_filter': 0.2}
+2026-01-26 12:26:36,573 - INFO - Point cloud loaded with shape: (3735854, 6)
+2026-01-26 12:26:36,573 - INFO - Extracting features with radius: 0.2
+2026-01-26 12:26:41,580 - INFO - Extracting features with radius: 0.3
+2026-01-26 12:26:47,067 - INFO - Extracting features with radius: 0.5
+2026-01-26 12:26:54,592 - INFO - Extracting features with radius: 0.7
+2026-01-26 12:27:06,042 - INFO - Features extracted with shape: (3735590, 34)
+2026-01-26 12:27:06,341 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-26 12:27:10,155 - INFO - Predictions made with shape: (3735590,)
+2026-01-26 12:27:10,155 - INFO - Filtered predictions shape: (3735590,)
+2026-01-26 12:27:10,155 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las
+2026-01-26 12:27:12,528 - INFO - Filtered 15165 points with classification 1
+2026-01-26 12:27:12,541 - ERROR - An error occurred: boolean index did not match indexed array along dimension 0; dimension is 3735590 but corresponding boolean dimension is 3735854
+2026-01-26 12:52:09,183 - INFO - Starting main execution
+2026-01-26 12:52:09,183 - INFO - Parsing configuration file
+2026-01-26 12:52:09,184 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las', 'crs': 'EPSG:25832', 'saturation_filter': 0.2}
+2026-01-26 12:52:09,344 - INFO - Point cloud loaded with shape: (3528696, 6)
+2026-01-26 12:52:09,344 - INFO - Extracting features with radius: 0.2
+2026-01-26 12:52:14,079 - INFO - Extracting features with radius: 0.3
+2026-01-26 12:52:19,405 - INFO - Extracting features with radius: 0.5
+2026-01-26 12:52:26,689 - INFO - Extracting features with radius: 0.7
+2026-01-26 12:52:37,335 - INFO - Features extracted with shape: (3528431, 34)
+2026-01-26 12:52:37,634 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-26 12:52:41,271 - INFO - Predictions made with shape: (3528431,)
+2026-01-26 12:52:41,271 - INFO - Filtered predictions shape: (3528431,)
+2026-01-26 12:52:41,271 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las
+2026-01-26 12:52:41,895 - INFO - Filtered 13170 points with classification 1
+2026-01-26 12:52:41,901 - ERROR - An error occurred: boolean index did not match indexed array along dimension 0; dimension is 3528431 but corresponding boolean dimension is 3528696
+2026-01-26 12:53:28,009 - INFO - Starting main execution
+2026-01-26 12:53:28,009 - INFO - Parsing configuration file
+2026-01-26 12:53:28,010 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las', 'crs': 'EPSG:25832', 'saturation_filter': 0.2}
+2026-01-26 12:53:28,185 - INFO - Point cloud loaded with shape: (3528696, 6)
+2026-01-26 12:53:28,185 - INFO - Extracting features with radius: 0.2
+2026-01-26 12:53:32,909 - INFO - Extracting features with radius: 0.3
+2026-01-26 12:53:38,094 - INFO - Extracting features with radius: 0.5
+2026-01-26 12:53:45,127 - INFO - Extracting features with radius: 0.7
+2026-01-26 12:53:55,889 - INFO - Features extracted with shape: (3528431, 34)
+2026-01-26 12:53:56,190 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-26 12:53:59,803 - INFO - Predictions made with shape: (3528431,)
+2026-01-26 12:53:59,803 - INFO - Filtered predictions shape: (3528431,)
+2026-01-26 12:53:59,803 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las
+2026-01-26 12:54:02,616 - INFO - Filtered 13170 points with classification 1
+2026-01-26 12:54:02,622 - ERROR - An error occurred: boolean index did not match indexed array along dimension 0; dimension is 3528431 but corresponding boolean dimension is 3528696
+2026-01-26 12:55:29,841 - INFO - Starting main execution
+2026-01-26 12:55:29,842 - INFO - Parsing configuration file
+2026-01-26 12:55:29,842 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las', 'crs': 'EPSG:25832', 'saturation_filter': 0.2}
+2026-01-26 12:55:30,000 - INFO - Point cloud loaded with shape: (3528696, 6)
+2026-01-26 12:55:30,000 - INFO - Extracting features with radius: 0.2
+2026-01-26 12:55:34,675 - INFO - Extracting features with radius: 0.3
+2026-01-26 12:55:39,859 - INFO - Extracting features with radius: 0.5
+2026-01-26 12:55:46,933 - INFO - Extracting features with radius: 0.7
+2026-01-26 12:55:57,500 - INFO - Features extracted with shape: (3528431, 34)
+2026-01-26 12:55:57,801 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-26 12:56:01,429 - INFO - Predictions made with shape: (3528431,)
+2026-01-26 12:56:01,429 - INFO - Filtered predictions shape: (3528431,)
+2026-01-26 12:56:01,429 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf.las
+2026-01-26 12:56:04,696 - INFO - Filtered 13170 points with classification 1
+2026-01-26 12:56:04,699 - INFO - After saturation filter: 12332 points remaining
+2026-01-26 12:56:04,705 - INFO - Downsampled to 1104 points
+2026-01-26 12:56:04,707 - INFO - Saved curb points to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf_curb_class1.las
+2026-01-26 12:56:04,744 - INFO - Created 1,104 records
+2026-01-26 12:56:04,745 - INFO - Saved shapefile to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf_curb_class1.shp
+2026-01-26 12:57:37,275 - INFO - Starting main execution
+2026-01-26 12:57:37,276 - INFO - Parsing configuration file
+2026-01-26 12:57:37,276 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_xg_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/xg.las', 'crs': 'EPSG:25832', 'saturation_filter': 0.2}
+2026-01-26 12:57:37,437 - INFO - Point cloud loaded with shape: (3528696, 6)
+2026-01-26 12:57:37,437 - INFO - Extracting features with radius: 0.2
+2026-01-26 12:57:42,129 - INFO - Extracting features with radius: 0.3
+2026-01-26 12:57:47,467 - INFO - Extracting features with radius: 0.5
+2026-01-26 12:57:54,627 - INFO - Extracting features with radius: 0.7
+2026-01-26 12:58:05,739 - INFO - Features extracted with shape: (3528431, 34)
+2026-01-26 12:58:07,030 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_xg_final_26.pkl
+2026-01-26 12:58:10,047 - INFO - Predictions made with shape: (3528431,)
+2026-01-26 12:58:10,047 - INFO - Filtered predictions shape: (3528431,)
+2026-01-26 12:58:10,047 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/xg.las
+2026-01-26 12:58:10,693 - INFO - Filtered 11136 points with classification 1
+2026-01-26 12:58:10,696 - INFO - After saturation filter: 9775 points remaining
+2026-01-26 12:58:10,701 - INFO - Downsampled to 1513 points
+2026-01-26 12:58:10,702 - INFO - Saved curb points to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/xg_curb_class1.las
+2026-01-26 12:58:10,741 - INFO - Created 1,513 records
+2026-01-26 12:58:10,741 - INFO - Saved shapefile to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/xg_curb_class1.shp
+2026-01-26 13:03:35,011 - INFO - Starting main execution
+2026-01-26 13:03:35,011 - INFO - Parsing configuration file
+2026-01-26 13:03:35,012 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_xg_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/xg.las', 'crs': 'EPSG:25832', 'saturation_filter': 0.2}
+2026-01-26 13:03:35,159 - INFO - Point cloud loaded with shape: (3225203, 6)
+2026-01-26 13:03:35,159 - INFO - Extracting features with radius: 0.2
+2026-01-26 13:03:39,972 - INFO - Extracting features with radius: 0.3
+2026-01-26 13:03:46,042 - INFO - Extracting features with radius: 0.5
+2026-01-26 13:03:56,080 - INFO - Extracting features with radius: 0.7
+2026-01-26 13:04:12,423 - INFO - Features extracted with shape: (3225077, 34)
+2026-01-26 13:04:12,483 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_xg_final_26.pkl
+2026-01-26 13:04:15,151 - INFO - Predictions made with shape: (3225077,)
+2026-01-26 13:04:15,151 - INFO - Filtered predictions shape: (3225077,)
+2026-01-26 13:04:15,151 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/xg.las
+2026-01-26 13:04:15,725 - INFO - Filtered 28295 points with classification 1
+2026-01-26 13:04:15,729 - INFO - After saturation filter: 27978 points remaining
+2026-01-26 13:04:15,743 - INFO - Downsampled to 868 points
+2026-01-26 13:04:15,744 - INFO - Saved curb points to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/xg_curb_class1.las
+2026-01-26 13:04:15,781 - INFO - Created 868 records
+2026-01-26 13:04:15,781 - INFO - Saved shapefile to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/xg_curb_class1.shp
+2026-01-26 13:06:39,556 - INFO - Starting main execution
+2026-01-26 13:06:39,557 - INFO - Parsing configuration file
+2026-01-26 13:06:39,558 - INFO - Configuration loaded: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las', 'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las', 'crs': 'EPSG:25832', 'saturation_filter': 0.2}
+2026-01-26 13:06:39,711 - INFO - Point cloud loaded with shape: (3225203, 6)
+2026-01-26 13:06:39,711 - INFO - Extracting features with radius: 0.2
+2026-01-26 13:06:44,601 - INFO - Extracting features with radius: 0.3
+2026-01-26 13:06:50,896 - INFO - Extracting features with radius: 0.5
+2026-01-26 13:07:01,102 - INFO - Extracting features with radius: 0.7
+2026-01-26 13:07:17,334 - INFO - Features extracted with shape: (3225077, 34)
+2026-01-26 13:07:17,637 - INFO - Model loaded from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl
+2026-01-26 13:07:20,907 - INFO - Predictions made with shape: (3225077,)
+2026-01-26 13:07:20,907 - INFO - Filtered predictions shape: (3225077,)
+2026-01-26 13:07:20,907 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las
+2026-01-26 13:07:21,490 - INFO - Filtered 19899 points with classification 1
+2026-01-26 13:07:21,494 - INFO - After saturation filter: 19566 points remaining
+2026-01-26 13:07:21,503 - INFO - Downsampled to 534 points
+2026-01-26 13:07:21,504 - INFO - Saved curb points to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf_curb_class1.las
+2026-01-26 13:07:21,535 - INFO - Created 534 records
+2026-01-26 13:07:21,535 - INFO - Saved shapefile to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf_curb_class1.shp

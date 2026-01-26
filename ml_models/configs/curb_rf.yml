@@ -1,0 +1,4 @@
+data_path: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/curb_training_data/'
+model_name: 'random_forest'  
+model_output_path: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl'
+

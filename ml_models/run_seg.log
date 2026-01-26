@@ -1,0 +1,1222 @@
+2026-01-23 13:26:08,587 - INFO - Starting script.
+2026-01-23 13:26:08,588 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/'}
+2026-01-23 13:26:08,588 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-23 13:26:09,486 - INFO - Model loaded successfully
+2026-01-23 13:26:09,487 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_hag.las
+2026-01-23 13:26:09,487 - INFO - Total points in input file: 100447329
+2026-01-23 13:26:09,487 - INFO - Reading points from LAS file
+2026-01-23 13:26:17,036 - INFO - Sorting points by coordinates
+2026-01-23 13:27:07,259 - INFO - Processing 11 chunks of 10000000 points each
+2026-01-23 13:27:07,259 - INFO - Processing chunk 1/11, points 0 to 10000000
+2026-01-23 13:27:07,259 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-23 13:27:09,348 - INFO - Computing features for radius 0.125
+2026-01-23 13:27:09,348 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 13:27:26,781 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 13:27:26,781 - INFO - Features computed for radius 0.125 in 17.43 seconds
+2026-01-23 13:27:26,814 - INFO - Computing features for radius 0.25
+2026-01-23 13:27:26,815 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 13:27:47,143 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 13:27:47,143 - INFO - Features computed for radius 0.25 in 20.33 seconds
+2026-01-23 13:27:47,172 - INFO - Computing features for radius 0.5
+2026-01-23 13:27:47,173 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 13:28:15,428 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 13:28:15,428 - INFO - Features computed for radius 0.5 in 28.26 seconds
+2026-01-23 13:28:15,454 - INFO - Computing features for radius 0.75
+2026-01-23 13:28:15,455 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 13:28:56,427 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 13:28:56,427 - INFO - Features computed for radius 0.75 in 40.97 seconds
+2026-01-23 13:28:56,454 - INFO - Computing features for radius 1
+2026-01-23 13:28:56,454 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 13:29:57,834 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 13:29:57,834 - INFO - Features computed for radius 1 in 61.38 seconds
+2026-01-23 13:29:57,860 - INFO - Computing features for radius 2
+2026-01-23 13:29:57,860 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 13:33:06,566 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 13:33:06,566 - INFO - Features computed for radius 2 in 188.71 seconds
+2026-01-23 13:33:06,589 - INFO - Computing features for radius 3
+2026-01-23 13:33:06,589 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 13:39:31,373 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 13:39:31,373 - INFO - Features computed for radius 3 in 384.78 seconds
+2026-01-23 13:39:31,405 - INFO - Computing features for radius 5
+2026-01-23 13:39:31,405 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 13:55:41,088 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 13:55:41,088 - INFO - Features computed for radius 5 in 969.68 seconds
+2026-01-23 13:55:43,504 - INFO - Feature matrix shape: (9972187, 31)
+2026-01-23 13:55:43,504 - INFO - Performing prediction
+2026-01-23 13:55:58,383 - INFO - Applying classification filters
+2026-01-23 13:55:58,383 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_0.las
+2026-01-23 13:55:59,909 - INFO - Completed processing chunk 0
+2026-01-23 13:55:59,909 - INFO - Processing chunk 2/11, points 10000000 to 20000000
+2026-01-23 13:55:59,909 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-23 13:56:02,024 - INFO - Computing features for radius 0.125
+2026-01-23 13:56:02,024 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 13:56:22,392 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 13:56:22,392 - INFO - Features computed for radius 0.125 in 20.37 seconds
+2026-01-23 13:56:22,419 - INFO - Computing features for radius 0.25
+2026-01-23 13:56:22,420 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 13:56:45,174 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 13:56:45,174 - INFO - Features computed for radius 0.25 in 22.75 seconds
+2026-01-23 13:56:45,200 - INFO - Computing features for radius 0.5
+2026-01-23 13:56:45,200 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 13:57:17,089 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 13:57:17,089 - INFO - Features computed for radius 0.5 in 31.89 seconds
+2026-01-23 13:57:17,113 - INFO - Computing features for radius 0.75
+2026-01-23 13:57:17,113 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 13:58:03,695 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 13:58:03,695 - INFO - Features computed for radius 0.75 in 46.58 seconds
+2026-01-23 13:58:03,720 - INFO - Computing features for radius 1
+2026-01-23 13:58:03,721 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 13:59:11,853 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 13:59:11,853 - INFO - Features computed for radius 1 in 68.13 seconds
+2026-01-23 13:59:11,873 - INFO - Computing features for radius 2
+2026-01-23 13:59:11,873 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 14:02:46,800 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 14:02:46,800 - INFO - Features computed for radius 2 in 214.93 seconds
+2026-01-23 14:02:46,819 - INFO - Computing features for radius 3
+2026-01-23 14:02:46,819 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 14:10:24,441 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 14:10:24,441 - INFO - Features computed for radius 3 in 457.62 seconds
+2026-01-23 14:10:24,468 - INFO - Computing features for radius 5
+2026-01-23 14:10:24,468 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 14:31:30,076 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 14:31:30,076 - INFO - Features computed for radius 5 in 1265.61 seconds
+2026-01-23 14:31:32,268 - INFO - Feature matrix shape: (9982552, 31)
+2026-01-23 14:31:32,269 - INFO - Performing prediction
+2026-01-23 14:31:48,731 - INFO - Applying classification filters
+2026-01-23 14:31:48,731 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_1.las
+2026-01-23 14:31:50,322 - INFO - Completed processing chunk 1
+2026-01-23 14:31:50,322 - INFO - Processing chunk 3/11, points 20000000 to 30000000
+2026-01-23 14:31:50,323 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-23 14:31:52,586 - INFO - Computing features for radius 0.125
+2026-01-23 14:31:52,586 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 14:32:13,059 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 14:32:13,059 - INFO - Features computed for radius 0.125 in 20.47 seconds
+2026-01-23 14:32:13,082 - INFO - Computing features for radius 0.25
+2026-01-23 14:32:13,082 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 14:32:36,573 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 14:32:36,574 - INFO - Features computed for radius 0.25 in 23.49 seconds
+2026-01-23 14:32:36,602 - INFO - Computing features for radius 0.5
+2026-01-23 14:32:36,602 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 14:33:11,822 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 14:33:11,822 - INFO - Features computed for radius 0.5 in 35.22 seconds
+2026-01-23 14:33:11,853 - INFO - Computing features for radius 0.75
+2026-01-23 14:33:11,853 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 14:34:05,953 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 14:34:05,953 - INFO - Features computed for radius 0.75 in 54.10 seconds
+2026-01-23 14:34:05,979 - INFO - Computing features for radius 1
+2026-01-23 14:34:05,979 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 14:35:26,874 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 14:35:26,874 - INFO - Features computed for radius 1 in 80.90 seconds
+2026-01-23 14:35:26,902 - INFO - Computing features for radius 2
+2026-01-23 14:35:26,902 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 14:39:42,869 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 14:39:42,869 - INFO - Features computed for radius 2 in 255.97 seconds
+2026-01-23 14:39:42,895 - INFO - Computing features for radius 3
+2026-01-23 14:39:42,895 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 14:48:30,823 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 14:48:30,824 - INFO - Features computed for radius 3 in 527.93 seconds
+2026-01-23 14:48:30,849 - INFO - Computing features for radius 5
+2026-01-23 14:48:30,849 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 15:12:37,932 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 15:12:37,932 - INFO - Features computed for radius 5 in 1447.08 seconds
+2026-01-23 15:12:40,160 - INFO - Feature matrix shape: (9966011, 31)
+2026-01-23 15:12:40,160 - INFO - Performing prediction
+2026-01-23 15:12:59,635 - INFO - Applying classification filters
+2026-01-23 15:12:59,635 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_2.las
+2026-01-23 15:13:01,278 - INFO - Completed processing chunk 2
+2026-01-23 15:13:01,278 - INFO - Processing chunk 4/11, points 30000000 to 40000000
+2026-01-23 15:13:01,278 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-23 15:13:03,553 - INFO - Computing features for radius 0.125
+2026-01-23 15:13:03,553 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 15:13:24,714 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 15:13:24,715 - INFO - Features computed for radius 0.125 in 21.16 seconds
+2026-01-23 15:13:24,735 - INFO - Computing features for radius 0.25
+2026-01-23 15:13:24,735 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 15:13:49,274 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 15:13:49,274 - INFO - Features computed for radius 0.25 in 24.54 seconds
+2026-01-23 15:13:49,299 - INFO - Computing features for radius 0.5
+2026-01-23 15:13:49,299 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 15:14:25,100 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 15:14:25,101 - INFO - Features computed for radius 0.5 in 35.80 seconds
+2026-01-23 15:14:25,127 - INFO - Computing features for radius 0.75
+2026-01-23 15:14:25,127 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 15:15:20,988 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 15:15:20,988 - INFO - Features computed for radius 0.75 in 55.86 seconds
+2026-01-23 15:15:21,015 - INFO - Computing features for radius 1
+2026-01-23 15:15:21,015 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 15:16:44,144 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 15:16:44,144 - INFO - Features computed for radius 1 in 83.13 seconds
+2026-01-23 15:16:44,169 - INFO - Computing features for radius 2
+2026-01-23 15:16:44,169 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 15:21:06,237 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 15:21:06,237 - INFO - Features computed for radius 2 in 262.07 seconds
+2026-01-23 15:21:06,263 - INFO - Computing features for radius 3
+2026-01-23 15:21:06,263 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 15:30:45,743 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 15:30:45,743 - INFO - Features computed for radius 3 in 579.48 seconds
+2026-01-23 15:30:45,771 - INFO - Computing features for radius 5
+2026-01-23 15:30:45,771 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 16:11:39,943 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 16:11:39,944 - INFO - Features computed for radius 5 in 2454.17 seconds
+2026-01-23 16:11:42,313 - INFO - Feature matrix shape: (9970810, 31)
+2026-01-23 16:11:42,313 - INFO - Performing prediction
+2026-01-23 16:12:14,302 - INFO - Applying classification filters
+2026-01-23 16:12:14,302 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_3.las
+2026-01-23 16:12:16,164 - INFO - Completed processing chunk 3
+2026-01-23 16:12:16,164 - INFO - Processing chunk 5/11, points 40000000 to 50000000
+2026-01-23 16:12:16,165 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-23 16:12:19,096 - INFO - Computing features for radius 0.125
+2026-01-23 16:12:19,096 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 16:12:51,258 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 16:12:51,258 - INFO - Features computed for radius 0.125 in 32.16 seconds
+2026-01-23 16:12:51,284 - INFO - Computing features for radius 0.25
+2026-01-23 16:12:51,284 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 16:13:27,977 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 16:13:27,977 - INFO - Features computed for radius 0.25 in 36.69 seconds
+2026-01-23 16:13:28,008 - INFO - Computing features for radius 0.5
+2026-01-23 16:13:28,008 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 16:14:21,036 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 16:14:21,036 - INFO - Features computed for radius 0.5 in 53.03 seconds
+2026-01-23 16:14:21,068 - INFO - Computing features for radius 0.75
+2026-01-23 16:14:21,068 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 16:15:42,743 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 16:15:42,744 - INFO - Features computed for radius 0.75 in 81.68 seconds
+2026-01-23 16:15:42,767 - INFO - Computing features for radius 1
+2026-01-23 16:15:42,767 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 16:17:43,772 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 16:17:43,772 - INFO - Features computed for radius 1 in 121.01 seconds
+2026-01-23 16:17:43,796 - INFO - Computing features for radius 2
+2026-01-23 16:17:43,796 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 16:24:28,685 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 16:24:28,685 - INFO - Features computed for radius 2 in 404.89 seconds
+2026-01-23 16:24:28,713 - INFO - Computing features for radius 3
+2026-01-23 16:24:28,713 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:04:08,569 - INFO - Starting script.
+2026-01-23 22:04:08,570 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/'}
+2026-01-23 22:04:08,570 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-23 22:04:09,463 - INFO - Model loaded successfully
+2026-01-23 22:04:09,463 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_hag.las
+2026-01-23 22:04:09,464 - INFO - Total points in input file: 100447329
+2026-01-23 22:04:09,464 - INFO - Reading points from LAS file
+2026-01-23 22:04:14,174 - INFO - Sorting points by coordinates
+2026-01-23 22:04:58,032 - INFO - Processing 11 chunks of 10000000 points each
+2026-01-23 22:04:58,032 - INFO - Processing chunk 1/11, points 0 to 10000000
+2026-01-23 22:04:58,032 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-23 22:04:59,913 - INFO - Computing features for radius 0.125
+2026-01-23 22:04:59,913 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:05:14,335 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 22:05:14,335 - INFO - Features computed for radius 0.125 in 14.42 seconds
+2026-01-23 22:05:14,357 - INFO - Computing features for radius 0.25
+2026-01-23 22:05:14,357 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:05:32,795 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 22:05:32,796 - INFO - Features computed for radius 0.25 in 18.44 seconds
+2026-01-23 22:05:32,822 - INFO - Computing features for radius 0.5
+2026-01-23 22:05:32,822 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:06:01,355 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 22:06:01,355 - INFO - Features computed for radius 0.5 in 28.53 seconds
+2026-01-23 22:06:01,377 - INFO - Computing features for radius 0.75
+2026-01-23 22:06:01,377 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:06:46,788 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 22:06:46,788 - INFO - Features computed for radius 0.75 in 45.41 seconds
+2026-01-23 22:06:46,816 - INFO - Computing features for radius 1
+2026-01-23 22:06:46,816 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:07:58,455 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 22:07:58,455 - INFO - Features computed for radius 1 in 71.64 seconds
+2026-01-23 22:07:58,481 - INFO - Computing features for radius 2
+2026-01-23 22:07:58,481 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:11:51,590 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 22:11:51,590 - INFO - Features computed for radius 2 in 233.11 seconds
+2026-01-23 22:11:51,613 - INFO - Computing features for radius 3
+2026-01-23 22:11:51,613 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:20:22,957 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 22:20:22,958 - INFO - Features computed for radius 3 in 511.35 seconds
+2026-01-23 22:20:22,977 - INFO - Computing features for radius 5
+2026-01-23 22:20:22,977 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:43:54,964 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 22:43:54,964 - INFO - Features computed for radius 5 in 1411.99 seconds
+2026-01-23 22:43:57,127 - INFO - Feature matrix shape: (9972187, 31)
+2026-01-23 22:43:57,127 - INFO - Performing prediction
+2026-01-23 22:44:14,559 - INFO - Applying classification filters
+2026-01-23 22:44:14,559 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_0.las
+2026-01-23 22:44:16,207 - INFO - Completed processing chunk 0
+2026-01-23 22:44:16,207 - INFO - Processing chunk 2/11, points 10000000 to 20000000
+2026-01-23 22:44:16,207 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-23 22:44:18,546 - INFO - Computing features for radius 0.125
+2026-01-23 22:44:18,546 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:44:45,100 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 22:44:45,101 - INFO - Features computed for radius 0.125 in 26.55 seconds
+2026-01-23 22:44:45,127 - INFO - Computing features for radius 0.25
+2026-01-23 22:44:45,127 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:45:16,531 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 22:45:16,531 - INFO - Features computed for radius 0.25 in 31.40 seconds
+2026-01-23 22:45:16,562 - INFO - Computing features for radius 0.5
+2026-01-23 22:45:16,562 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:46:02,118 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 22:46:02,118 - INFO - Features computed for radius 0.5 in 45.56 seconds
+2026-01-23 22:46:02,144 - INFO - Computing features for radius 0.75
+2026-01-23 22:46:02,144 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:47:10,029 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 22:47:10,029 - INFO - Features computed for radius 0.75 in 67.89 seconds
+2026-01-23 22:47:10,052 - INFO - Computing features for radius 1
+2026-01-23 22:47:10,052 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:48:50,354 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 22:48:50,354 - INFO - Features computed for radius 1 in 100.30 seconds
+2026-01-23 22:48:50,374 - INFO - Computing features for radius 2
+2026-01-23 22:48:50,374 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 22:54:05,367 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 22:54:05,367 - INFO - Features computed for radius 2 in 314.99 seconds
+2026-01-23 22:54:05,387 - INFO - Computing features for radius 3
+2026-01-23 22:54:05,387 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 23:05:11,787 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 23:05:11,787 - INFO - Features computed for radius 3 in 666.40 seconds
+2026-01-23 23:05:11,814 - INFO - Computing features for radius 5
+2026-01-23 23:05:11,815 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 23:35:58,922 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 23:35:58,922 - INFO - Features computed for radius 5 in 1847.11 seconds
+2026-01-23 23:36:01,163 - INFO - Feature matrix shape: (9982552, 31)
+2026-01-23 23:36:01,163 - INFO - Performing prediction
+2026-01-23 23:36:21,747 - INFO - Applying classification filters
+2026-01-23 23:36:21,748 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_1.las
+2026-01-23 23:36:23,387 - INFO - Completed processing chunk 1
+2026-01-23 23:36:23,387 - INFO - Processing chunk 3/11, points 20000000 to 30000000
+2026-01-23 23:36:23,387 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-23 23:36:25,646 - INFO - Computing features for radius 0.125
+2026-01-23 23:36:25,646 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 23:36:53,907 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 23:36:53,907 - INFO - Features computed for radius 0.125 in 28.26 seconds
+2026-01-23 23:36:53,938 - INFO - Computing features for radius 0.25
+2026-01-23 23:36:53,938 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 23:37:27,152 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 23:37:27,152 - INFO - Features computed for radius 0.25 in 33.21 seconds
+2026-01-23 23:37:27,180 - INFO - Computing features for radius 0.5
+2026-01-23 23:37:27,180 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 23:38:17,563 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 23:38:17,563 - INFO - Features computed for radius 0.5 in 50.38 seconds
+2026-01-23 23:38:17,589 - INFO - Computing features for radius 0.75
+2026-01-23 23:38:17,589 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 23:39:36,721 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 23:39:36,721 - INFO - Features computed for radius 0.75 in 79.13 seconds
+2026-01-23 23:39:36,744 - INFO - Computing features for radius 1
+2026-01-23 23:39:36,744 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 23:41:33,503 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 23:41:33,503 - INFO - Features computed for radius 1 in 116.76 seconds
+2026-01-23 23:41:33,524 - INFO - Computing features for radius 2
+2026-01-23 23:41:33,525 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-23 23:47:41,391 - INFO - Features computed with shape: (10000000, 3)
+2026-01-23 23:47:41,391 - INFO - Features computed for radius 2 in 367.87 seconds
+2026-01-23 23:47:41,416 - INFO - Computing features for radius 3
+2026-01-23 23:47:41,416 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 00:00:28,450 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 00:00:28,450 - INFO - Features computed for radius 3 in 767.03 seconds
+2026-01-24 00:00:28,468 - INFO - Computing features for radius 5
+2026-01-24 00:00:28,468 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 00:34:51,748 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 00:34:51,748 - INFO - Features computed for radius 5 in 2063.28 seconds
+2026-01-24 00:34:53,860 - INFO - Feature matrix shape: (9966011, 31)
+2026-01-24 00:34:53,860 - INFO - Performing prediction
+2026-01-24 00:35:17,742 - INFO - Applying classification filters
+2026-01-24 00:35:17,742 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_2.las
+2026-01-24 00:35:19,382 - INFO - Completed processing chunk 2
+2026-01-24 00:35:19,382 - INFO - Processing chunk 4/11, points 30000000 to 40000000
+2026-01-24 00:35:19,382 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-24 00:35:21,639 - INFO - Computing features for radius 0.125
+2026-01-24 00:35:21,639 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 00:35:46,481 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 00:35:46,481 - INFO - Features computed for radius 0.125 in 24.84 seconds
+2026-01-24 00:35:46,508 - INFO - Computing features for radius 0.25
+2026-01-24 00:35:46,508 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 00:36:15,730 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 00:36:15,731 - INFO - Features computed for radius 0.25 in 29.22 seconds
+2026-01-24 00:36:15,756 - INFO - Computing features for radius 0.5
+2026-01-24 00:36:15,756 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 00:37:00,349 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 00:37:00,349 - INFO - Features computed for radius 0.5 in 44.59 seconds
+2026-01-24 00:37:00,377 - INFO - Computing features for radius 0.75
+2026-01-24 00:37:00,377 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 00:38:11,245 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 00:38:11,245 - INFO - Features computed for radius 0.75 in 70.87 seconds
+2026-01-24 00:38:11,271 - INFO - Computing features for radius 1
+2026-01-24 00:38:11,271 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 00:39:57,523 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 00:39:57,523 - INFO - Features computed for radius 1 in 106.25 seconds
+2026-01-24 00:39:57,550 - INFO - Computing features for radius 2
+2026-01-24 00:39:57,550 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 00:45:29,787 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 00:45:29,787 - INFO - Features computed for radius 2 in 332.24 seconds
+2026-01-24 00:45:29,821 - INFO - Computing features for radius 3
+2026-01-24 00:45:29,822 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 00:57:04,869 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 00:57:04,869 - INFO - Features computed for radius 3 in 695.05 seconds
+2026-01-24 00:57:04,892 - INFO - Computing features for radius 5
+2026-01-24 00:57:04,892 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 01:29:59,463 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 01:29:59,463 - INFO - Features computed for radius 5 in 1974.57 seconds
+2026-01-24 01:30:01,699 - INFO - Feature matrix shape: (9970810, 31)
+2026-01-24 01:30:01,699 - INFO - Performing prediction
+2026-01-24 01:30:26,443 - INFO - Applying classification filters
+2026-01-24 01:30:26,443 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_3.las
+2026-01-24 01:30:28,063 - INFO - Completed processing chunk 3
+2026-01-24 01:30:28,063 - INFO - Processing chunk 5/11, points 40000000 to 50000000
+2026-01-24 01:30:28,063 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-24 01:30:30,243 - INFO - Computing features for radius 0.125
+2026-01-24 01:30:30,243 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 01:30:56,232 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 01:30:56,232 - INFO - Features computed for radius 0.125 in 25.99 seconds
+2026-01-24 01:30:56,256 - INFO - Computing features for radius 0.25
+2026-01-24 01:30:56,257 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 01:31:26,099 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 01:31:26,099 - INFO - Features computed for radius 0.25 in 29.84 seconds
+2026-01-24 01:31:26,125 - INFO - Computing features for radius 0.5
+2026-01-24 01:31:26,125 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 01:32:11,070 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 01:32:11,070 - INFO - Features computed for radius 0.5 in 44.95 seconds
+2026-01-24 01:32:11,094 - INFO - Computing features for radius 0.75
+2026-01-24 01:32:11,094 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 01:33:21,313 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 01:33:21,313 - INFO - Features computed for radius 0.75 in 70.22 seconds
+2026-01-24 01:33:21,335 - INFO - Computing features for radius 1
+2026-01-24 01:33:21,335 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 01:35:06,669 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 01:35:06,670 - INFO - Features computed for radius 1 in 105.34 seconds
+2026-01-24 01:35:06,688 - INFO - Computing features for radius 2
+2026-01-24 01:35:06,688 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 01:40:41,771 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 01:40:41,772 - INFO - Features computed for radius 2 in 335.08 seconds
+2026-01-24 01:40:41,790 - INFO - Computing features for radius 3
+2026-01-24 01:40:41,790 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 01:52:29,690 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 01:52:29,690 - INFO - Features computed for radius 3 in 707.90 seconds
+2026-01-24 01:52:29,710 - INFO - Computing features for radius 5
+2026-01-24 01:52:29,711 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 02:27:01,638 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 02:27:01,639 - INFO - Features computed for radius 5 in 2071.93 seconds
+2026-01-24 02:27:03,815 - INFO - Feature matrix shape: (9982355, 31)
+2026-01-24 02:27:03,815 - INFO - Performing prediction
+2026-01-24 02:27:27,361 - INFO - Applying classification filters
+2026-01-24 02:27:27,361 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_4.las
+2026-01-24 02:27:28,918 - INFO - Completed processing chunk 4
+2026-01-24 02:27:28,918 - INFO - Processing chunk 6/11, points 50000000 to 60000000
+2026-01-24 02:27:28,918 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-24 02:27:31,180 - INFO - Computing features for radius 0.125
+2026-01-24 02:27:31,181 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 02:27:58,103 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 02:27:58,103 - INFO - Features computed for radius 0.125 in 26.92 seconds
+2026-01-24 02:27:58,127 - INFO - Computing features for radius 0.25
+2026-01-24 02:27:58,127 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 02:28:29,231 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 02:28:29,231 - INFO - Features computed for radius 0.25 in 31.10 seconds
+2026-01-24 02:28:29,260 - INFO - Computing features for radius 0.5
+2026-01-24 02:28:29,260 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 02:29:15,271 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 02:29:15,271 - INFO - Features computed for radius 0.5 in 46.01 seconds
+2026-01-24 02:29:15,298 - INFO - Computing features for radius 0.75
+2026-01-24 02:29:15,298 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 02:30:27,483 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 02:30:27,483 - INFO - Features computed for radius 0.75 in 72.18 seconds
+2026-01-24 02:30:27,509 - INFO - Computing features for radius 1
+2026-01-24 02:30:27,510 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 02:32:16,441 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 02:32:16,442 - INFO - Features computed for radius 1 in 108.93 seconds
+2026-01-24 02:32:16,465 - INFO - Computing features for radius 2
+2026-01-24 02:32:16,465 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 02:38:03,356 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 02:38:03,356 - INFO - Features computed for radius 2 in 346.89 seconds
+2026-01-24 02:38:03,374 - INFO - Computing features for radius 3
+2026-01-24 02:38:03,375 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 02:50:20,725 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 02:50:20,725 - INFO - Features computed for radius 3 in 737.35 seconds
+2026-01-24 02:50:20,744 - INFO - Computing features for radius 5
+2026-01-24 02:50:20,744 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 03:23:47,900 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 03:23:47,900 - INFO - Features computed for radius 5 in 2007.16 seconds
+2026-01-24 03:23:50,131 - INFO - Feature matrix shape: (9989667, 31)
+2026-01-24 03:23:50,131 - INFO - Performing prediction
+2026-01-24 03:24:12,146 - INFO - Applying classification filters
+2026-01-24 03:24:12,146 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_5.las
+2026-01-24 03:24:13,746 - INFO - Completed processing chunk 5
+2026-01-24 03:24:13,746 - INFO - Processing chunk 7/11, points 60000000 to 70000000
+2026-01-24 03:24:13,746 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-24 03:24:15,960 - INFO - Computing features for radius 0.125
+2026-01-24 03:24:15,960 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 03:24:41,370 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 03:24:41,370 - INFO - Features computed for radius 0.125 in 25.41 seconds
+2026-01-24 03:24:41,394 - INFO - Computing features for radius 0.25
+2026-01-24 03:24:41,394 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 03:25:10,457 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 03:25:10,457 - INFO - Features computed for radius 0.25 in 29.06 seconds
+2026-01-24 03:25:10,484 - INFO - Computing features for radius 0.5
+2026-01-24 03:25:10,485 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 03:25:52,585 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 03:25:52,585 - INFO - Features computed for radius 0.5 in 42.10 seconds
+2026-01-24 03:25:52,610 - INFO - Computing features for radius 0.75
+2026-01-24 03:25:52,610 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 03:26:57,937 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 03:26:57,937 - INFO - Features computed for radius 0.75 in 65.33 seconds
+2026-01-24 03:26:57,965 - INFO - Computing features for radius 1
+2026-01-24 03:26:57,965 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 03:28:35,866 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 03:28:35,866 - INFO - Features computed for radius 1 in 97.90 seconds
+2026-01-24 03:28:35,892 - INFO - Computing features for radius 2
+2026-01-24 03:28:35,893 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 03:33:43,356 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 03:33:43,356 - INFO - Features computed for radius 2 in 307.46 seconds
+2026-01-24 03:33:43,374 - INFO - Computing features for radius 3
+2026-01-24 03:33:43,374 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 03:44:30,937 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 03:44:30,938 - INFO - Features computed for radius 3 in 647.56 seconds
+2026-01-24 03:44:30,958 - INFO - Computing features for radius 5
+2026-01-24 03:44:30,958 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 04:15:20,229 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 04:15:20,229 - INFO - Features computed for radius 5 in 1849.27 seconds
+2026-01-24 04:15:22,376 - INFO - Feature matrix shape: (9990306, 31)
+2026-01-24 04:15:22,376 - INFO - Performing prediction
+2026-01-24 04:15:44,032 - INFO - Applying classification filters
+2026-01-24 04:15:44,032 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_6.las
+2026-01-24 04:15:45,649 - INFO - Completed processing chunk 6
+2026-01-24 04:15:45,649 - INFO - Processing chunk 8/11, points 70000000 to 80000000
+2026-01-24 04:15:45,649 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-24 04:15:48,034 - INFO - Computing features for radius 0.125
+2026-01-24 04:15:48,034 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 04:16:13,850 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 04:16:13,850 - INFO - Features computed for radius 0.125 in 25.82 seconds
+2026-01-24 04:16:13,872 - INFO - Computing features for radius 0.25
+2026-01-24 04:16:13,872 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 04:16:43,382 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 04:16:43,382 - INFO - Features computed for radius 0.25 in 29.51 seconds
+2026-01-24 04:16:43,406 - INFO - Computing features for radius 0.5
+2026-01-24 04:16:43,406 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 04:17:27,677 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 04:17:27,677 - INFO - Features computed for radius 0.5 in 44.27 seconds
+2026-01-24 04:17:27,699 - INFO - Computing features for radius 0.75
+2026-01-24 04:17:27,700 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 04:18:36,653 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 04:18:36,653 - INFO - Features computed for radius 0.75 in 68.95 seconds
+2026-01-24 04:18:36,676 - INFO - Computing features for radius 1
+2026-01-24 04:18:36,676 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 04:20:19,210 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 04:20:19,210 - INFO - Features computed for radius 1 in 102.53 seconds
+2026-01-24 04:20:19,241 - INFO - Computing features for radius 2
+2026-01-24 04:20:19,241 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 04:25:56,288 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 04:25:56,288 - INFO - Features computed for radius 2 in 337.05 seconds
+2026-01-24 04:25:56,309 - INFO - Computing features for radius 3
+2026-01-24 04:25:56,309 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 04:37:46,380 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 04:37:46,380 - INFO - Features computed for radius 3 in 710.07 seconds
+2026-01-24 04:37:46,398 - INFO - Computing features for radius 5
+2026-01-24 04:37:46,398 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 05:18:19,703 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 05:18:19,703 - INFO - Features computed for radius 5 in 2433.31 seconds
+2026-01-24 05:18:21,829 - INFO - Feature matrix shape: (9985168, 31)
+2026-01-24 05:18:21,829 - INFO - Performing prediction
+2026-01-24 05:18:47,255 - INFO - Applying classification filters
+2026-01-24 05:18:47,255 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_7.las
+2026-01-24 05:18:48,833 - INFO - Completed processing chunk 7
+2026-01-24 05:18:48,833 - INFO - Processing chunk 9/11, points 80000000 to 90000000
+2026-01-24 05:18:48,833 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-24 05:18:51,177 - INFO - Computing features for radius 0.125
+2026-01-24 05:18:51,177 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 05:19:22,408 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 05:19:22,408 - INFO - Features computed for radius 0.125 in 31.23 seconds
+2026-01-24 05:19:22,437 - INFO - Computing features for radius 0.25
+2026-01-24 05:19:22,438 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 05:19:59,396 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 05:19:59,397 - INFO - Features computed for radius 0.25 in 36.96 seconds
+2026-01-24 05:19:59,424 - INFO - Computing features for radius 0.5
+2026-01-24 05:19:59,425 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 05:20:54,113 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 05:20:54,114 - INFO - Features computed for radius 0.5 in 54.69 seconds
+2026-01-24 05:20:54,144 - INFO - Computing features for radius 0.75
+2026-01-24 05:20:54,144 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 05:22:21,210 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 05:22:21,210 - INFO - Features computed for radius 0.75 in 87.07 seconds
+2026-01-24 05:22:21,234 - INFO - Computing features for radius 1
+2026-01-24 05:22:21,234 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 05:24:33,002 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 05:24:33,002 - INFO - Features computed for radius 1 in 131.77 seconds
+2026-01-24 05:24:33,026 - INFO - Computing features for radius 2
+2026-01-24 05:24:33,026 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 05:31:29,056 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 05:31:29,056 - INFO - Features computed for radius 2 in 416.03 seconds
+2026-01-24 05:31:29,077 - INFO - Computing features for radius 3
+2026-01-24 05:31:29,077 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 05:45:58,384 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 05:45:58,384 - INFO - Features computed for radius 3 in 869.31 seconds
+2026-01-24 05:45:58,402 - INFO - Computing features for radius 5
+2026-01-24 05:45:58,403 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 06:29:07,731 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 06:29:07,731 - INFO - Features computed for radius 5 in 2589.33 seconds
+2026-01-24 06:29:09,854 - INFO - Feature matrix shape: (9973105, 31)
+2026-01-24 06:29:09,854 - INFO - Performing prediction
+2026-01-24 06:29:37,420 - INFO - Applying classification filters
+2026-01-24 06:29:37,420 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_8.las
+2026-01-24 06:29:38,995 - INFO - Completed processing chunk 8
+2026-01-24 06:29:38,995 - INFO - Processing chunk 10/11, points 90000000 to 100000000
+2026-01-24 06:29:38,995 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-24 06:29:41,444 - INFO - Computing features for radius 0.125
+2026-01-24 06:29:41,444 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 06:30:13,260 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 06:30:13,260 - INFO - Features computed for radius 0.125 in 31.82 seconds
+2026-01-24 06:30:13,285 - INFO - Computing features for radius 0.25
+2026-01-24 06:30:13,285 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 06:30:51,213 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 06:30:51,213 - INFO - Features computed for radius 0.25 in 37.93 seconds
+2026-01-24 06:30:51,242 - INFO - Computing features for radius 0.5
+2026-01-24 06:30:51,242 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 06:31:47,368 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 06:31:47,369 - INFO - Features computed for radius 0.5 in 56.13 seconds
+2026-01-24 06:31:47,392 - INFO - Computing features for radius 0.75
+2026-01-24 06:31:47,392 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 06:33:14,634 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 06:33:14,634 - INFO - Features computed for radius 0.75 in 87.24 seconds
+2026-01-24 06:33:14,660 - INFO - Computing features for radius 1
+2026-01-24 06:33:14,660 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 06:35:25,711 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 06:35:25,711 - INFO - Features computed for radius 1 in 131.05 seconds
+2026-01-24 06:35:25,734 - INFO - Computing features for radius 2
+2026-01-24 06:35:25,734 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 06:42:01,344 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 06:42:01,344 - INFO - Features computed for radius 2 in 395.61 seconds
+2026-01-24 06:42:01,364 - INFO - Computing features for radius 3
+2026-01-24 06:42:01,364 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 06:55:44,225 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 06:55:44,225 - INFO - Features computed for radius 3 in 822.86 seconds
+2026-01-24 06:55:44,244 - INFO - Computing features for radius 5
+2026-01-24 06:55:44,244 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 07:34:30,270 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 07:34:30,271 - INFO - Features computed for radius 5 in 2326.03 seconds
+2026-01-24 07:34:32,398 - INFO - Feature matrix shape: (9980027, 31)
+2026-01-24 07:34:32,398 - INFO - Performing prediction
+2026-01-24 07:34:58,880 - INFO - Applying classification filters
+2026-01-24 07:34:58,880 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_9.las
+2026-01-24 07:35:00,485 - INFO - Completed processing chunk 9
+2026-01-24 07:35:00,485 - INFO - Processing chunk 11/11, points 100000000 to 100447329
+2026-01-24 07:35:00,485 - INFO - Processing RGB array of shape (447329, 3)
+2026-01-24 07:35:00,583 - INFO - Computing features for radius 0.125
+2026-01-24 07:35:00,583 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 07:35:01,876 - INFO - Features computed with shape: (447329, 3)
+2026-01-24 07:35:01,876 - INFO - Features computed for radius 0.125 in 1.29 seconds
+2026-01-24 07:35:01,905 - INFO - Computing features for radius 0.25
+2026-01-24 07:35:01,905 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 07:35:03,515 - INFO - Features computed with shape: (447329, 3)
+2026-01-24 07:35:03,516 - INFO - Features computed for radius 0.25 in 1.61 seconds
+2026-01-24 07:35:03,552 - INFO - Computing features for radius 0.5
+2026-01-24 07:35:03,552 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 07:35:05,859 - INFO - Features computed with shape: (447329, 3)
+2026-01-24 07:35:05,859 - INFO - Features computed for radius 0.5 in 2.31 seconds
+2026-01-24 07:35:05,892 - INFO - Computing features for radius 0.75
+2026-01-24 07:35:05,892 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 07:35:09,263 - INFO - Features computed with shape: (447329, 3)
+2026-01-24 07:35:09,264 - INFO - Features computed for radius 0.75 in 3.37 seconds
+2026-01-24 07:35:09,295 - INFO - Computing features for radius 1
+2026-01-24 07:35:09,296 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 07:35:14,069 - INFO - Features computed with shape: (447329, 3)
+2026-01-24 07:35:14,069 - INFO - Features computed for radius 1 in 4.77 seconds
+2026-01-24 07:35:14,100 - INFO - Computing features for radius 2
+2026-01-24 07:35:14,101 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 07:35:26,490 - INFO - Features computed with shape: (447329, 3)
+2026-01-24 07:35:26,490 - INFO - Features computed for radius 2 in 12.39 seconds
+2026-01-24 07:35:26,523 - INFO - Computing features for radius 3
+2026-01-24 07:35:26,523 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 07:35:51,090 - INFO - Features computed with shape: (447329, 3)
+2026-01-24 07:35:51,091 - INFO - Features computed for radius 3 in 24.57 seconds
+2026-01-24 07:35:51,122 - INFO - Computing features for radius 5
+2026-01-24 07:35:51,122 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 07:36:48,898 - INFO - Features computed with shape: (447329, 3)
+2026-01-24 07:36:48,899 - INFO - Features computed for radius 5 in 57.78 seconds
+2026-01-24 07:36:49,023 - INFO - Feature matrix shape: (446160, 31)
+2026-01-24 07:36:49,023 - INFO - Performing prediction
+2026-01-24 07:36:50,323 - INFO - Applying classification filters
+2026-01-24 07:36:50,323 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/inf_chunk2_10.las
+2026-01-24 07:36:50,459 - INFO - Completed processing chunk 10
+2026-01-24 07:36:50,459 - INFO - Processing completed successfully
+2026-01-24 11:06:49,466 - INFO - Starting script.
+2026-01-24 11:06:49,468 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/'}
+2026-01-24 11:06:49,468 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-24 11:06:50,363 - INFO - Model loaded successfully
+2026-01-24 11:06:50,364 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-24 11:06:50,364 - INFO - Total points in input file: 64773871
+2026-01-24 11:06:50,364 - INFO - Reading points from LAS file
+2026-01-24 11:06:53,478 - INFO - Sorting points by coordinates
+2026-01-24 11:07:21,875 - INFO - Processing 7 chunks of 10000000 points each
+2026-01-24 11:07:21,875 - INFO - Processing chunk 1/7, points 0 to 10000000
+2026-01-24 11:07:21,875 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-24 11:07:23,911 - INFO - Computing features for radius 0.125
+2026-01-24 11:07:23,912 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 11:07:40,641 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 11:07:40,641 - INFO - Features computed for radius 0.125 in 16.73 seconds
+2026-01-24 11:07:40,664 - INFO - Computing features for radius 0.25
+2026-01-24 11:07:40,664 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 11:08:08,459 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 11:08:08,459 - INFO - Features computed for radius 0.25 in 27.80 seconds
+2026-01-24 11:08:08,490 - INFO - Computing features for radius 0.5
+2026-01-24 11:08:08,490 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 11:09:13,869 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 11:09:13,870 - INFO - Features computed for radius 0.5 in 65.38 seconds
+2026-01-24 11:09:13,898 - INFO - Computing features for radius 0.75
+2026-01-24 11:09:13,898 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 11:11:29,780 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 11:11:29,780 - INFO - Features computed for radius 0.75 in 135.88 seconds
+2026-01-24 11:11:29,808 - INFO - Computing features for radius 1
+2026-01-24 11:11:29,808 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 11:15:22,186 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 11:15:22,186 - INFO - Features computed for radius 1 in 232.38 seconds
+2026-01-24 11:15:22,207 - INFO - Computing features for radius 2
+2026-01-24 11:15:22,207 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 11:28:17,816 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 11:28:17,816 - INFO - Features computed for radius 2 in 775.61 seconds
+2026-01-24 11:28:17,836 - INFO - Computing features for radius 3
+2026-01-24 11:28:17,836 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 11:54:11,288 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 11:54:11,288 - INFO - Features computed for radius 3 in 1553.45 seconds
+2026-01-24 11:54:11,307 - INFO - Computing features for radius 5
+2026-01-24 11:54:11,307 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 13:06:14,178 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 13:06:14,179 - INFO - Features computed for radius 5 in 4322.87 seconds
+2026-01-24 13:06:16,374 - INFO - Feature matrix shape: (9992238, 31)
+2026-01-24 13:06:16,374 - INFO - Performing prediction
+2026-01-24 13:06:36,865 - INFO - Applying classification filters
+2026-01-24 13:06:36,866 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/inf_chunk2_0.las
+2026-01-24 13:06:38,353 - INFO - Completed processing chunk 0
+2026-01-24 13:06:38,353 - INFO - Processing chunk 2/7, points 10000000 to 20000000
+2026-01-24 13:06:38,353 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-24 13:06:40,640 - INFO - Computing features for radius 0.125
+2026-01-24 13:06:40,640 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 13:07:14,426 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 13:07:14,426 - INFO - Features computed for radius 0.125 in 33.79 seconds
+2026-01-24 13:07:14,448 - INFO - Computing features for radius 0.25
+2026-01-24 13:07:14,448 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 13:07:59,290 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 13:07:59,290 - INFO - Features computed for radius 0.25 in 44.84 seconds
+2026-01-24 13:07:59,311 - INFO - Computing features for radius 0.5
+2026-01-24 13:07:59,311 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 13:09:23,201 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 13:09:23,201 - INFO - Features computed for radius 0.5 in 83.89 seconds
+2026-01-24 13:09:23,223 - INFO - Computing features for radius 0.75
+2026-01-24 13:09:23,223 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 13:11:52,284 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 13:11:52,284 - INFO - Features computed for radius 0.75 in 149.06 seconds
+2026-01-24 13:11:52,305 - INFO - Computing features for radius 1
+2026-01-24 13:11:52,305 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 13:15:48,836 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 13:15:48,836 - INFO - Features computed for radius 1 in 236.53 seconds
+2026-01-24 13:15:48,859 - INFO - Computing features for radius 2
+2026-01-24 13:15:48,859 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 13:29:05,656 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 13:29:05,656 - INFO - Features computed for radius 2 in 796.80 seconds
+2026-01-24 13:29:05,678 - INFO - Computing features for radius 3
+2026-01-24 13:29:05,678 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 13:58:43,605 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 13:58:43,605 - INFO - Features computed for radius 3 in 1777.93 seconds
+2026-01-24 13:58:43,624 - INFO - Computing features for radius 5
+2026-01-24 13:58:43,624 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 15:31:14,666 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 15:31:14,666 - INFO - Features computed for radius 5 in 5551.04 seconds
+2026-01-24 15:31:16,797 - INFO - Feature matrix shape: (9995506, 31)
+2026-01-24 15:31:16,797 - INFO - Performing prediction
+2026-01-24 15:31:35,828 - INFO - Applying classification filters
+2026-01-24 15:31:35,828 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/inf_chunk2_1.las
+2026-01-24 15:31:37,428 - INFO - Completed processing chunk 1
+2026-01-24 15:31:37,428 - INFO - Processing chunk 3/7, points 20000000 to 30000000
+2026-01-24 15:31:37,428 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-24 15:31:39,830 - INFO - Computing features for radius 0.125
+2026-01-24 15:31:39,830 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 15:32:16,496 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 15:32:16,496 - INFO - Features computed for radius 0.125 in 36.67 seconds
+2026-01-24 15:32:16,521 - INFO - Computing features for radius 0.25
+2026-01-24 15:32:16,521 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 15:33:06,857 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 15:33:06,857 - INFO - Features computed for radius 0.25 in 50.34 seconds
+2026-01-24 15:33:06,881 - INFO - Computing features for radius 0.5
+2026-01-24 15:33:06,881 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 15:34:43,038 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 15:34:43,038 - INFO - Features computed for radius 0.5 in 96.16 seconds
+2026-01-24 15:34:43,064 - INFO - Computing features for radius 0.75
+2026-01-24 15:34:43,064 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 15:37:29,311 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 15:37:29,311 - INFO - Features computed for radius 0.75 in 166.25 seconds
+2026-01-24 15:37:29,334 - INFO - Computing features for radius 1
+2026-01-24 15:37:29,334 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 15:41:51,119 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 15:41:51,119 - INFO - Features computed for radius 1 in 261.78 seconds
+2026-01-24 15:41:51,140 - INFO - Computing features for radius 2
+2026-01-24 15:41:51,140 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 15:56:31,930 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 15:56:31,930 - INFO - Features computed for radius 2 in 880.79 seconds
+2026-01-24 15:56:31,950 - INFO - Computing features for radius 3
+2026-01-24 15:56:31,950 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 16:29:32,589 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 16:29:32,589 - INFO - Features computed for radius 3 in 1980.64 seconds
+2026-01-24 16:29:32,612 - INFO - Computing features for radius 5
+2026-01-24 16:29:32,612 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 18:11:06,647 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 18:11:06,647 - INFO - Features computed for radius 5 in 6094.03 seconds
+2026-01-24 18:11:08,898 - INFO - Feature matrix shape: (9994128, 31)
+2026-01-24 18:11:08,898 - INFO - Performing prediction
+2026-01-24 18:11:35,742 - INFO - Applying classification filters
+2026-01-24 18:11:35,743 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/inf_chunk2_2.las
+2026-01-24 18:11:37,529 - INFO - Completed processing chunk 2
+2026-01-24 18:11:37,530 - INFO - Processing chunk 4/7, points 30000000 to 40000000
+2026-01-24 18:11:37,530 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-24 18:11:40,356 - INFO - Computing features for radius 0.125
+2026-01-24 18:11:40,357 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 18:12:22,942 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 18:12:22,942 - INFO - Features computed for radius 0.125 in 42.59 seconds
+2026-01-24 18:12:22,969 - INFO - Computing features for radius 0.25
+2026-01-24 18:12:22,969 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 18:13:20,514 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 18:13:20,514 - INFO - Features computed for radius 0.25 in 57.54 seconds
+2026-01-24 18:13:20,538 - INFO - Computing features for radius 0.5
+2026-01-24 18:13:20,538 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 18:15:04,366 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 18:15:04,366 - INFO - Features computed for radius 0.5 in 103.83 seconds
+2026-01-24 18:15:04,395 - INFO - Computing features for radius 0.75
+2026-01-24 18:15:04,395 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 18:18:07,210 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 18:18:07,210 - INFO - Features computed for radius 0.75 in 182.81 seconds
+2026-01-24 18:18:07,238 - INFO - Computing features for radius 1
+2026-01-24 18:18:07,238 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 18:22:54,654 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 18:22:54,654 - INFO - Features computed for radius 1 in 287.42 seconds
+2026-01-24 18:22:54,685 - INFO - Computing features for radius 2
+2026-01-24 18:22:54,685 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 18:39:08,500 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 18:39:08,500 - INFO - Features computed for radius 2 in 973.81 seconds
+2026-01-24 18:39:08,519 - INFO - Computing features for radius 3
+2026-01-24 18:39:08,519 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 19:13:47,170 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 19:13:47,170 - INFO - Features computed for radius 3 in 2078.65 seconds
+2026-01-24 19:13:47,189 - INFO - Computing features for radius 5
+2026-01-24 19:13:47,189 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 20:35:02,329 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 20:35:02,329 - INFO - Features computed for radius 5 in 4875.14 seconds
+2026-01-24 20:35:04,451 - INFO - Feature matrix shape: (9991154, 31)
+2026-01-24 20:35:04,451 - INFO - Performing prediction
+2026-01-24 20:35:28,921 - INFO - Applying classification filters
+2026-01-24 20:35:28,921 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/inf_chunk2_3.las
+2026-01-24 20:35:30,505 - INFO - Completed processing chunk 3
+2026-01-24 20:35:30,505 - INFO - Processing chunk 5/7, points 40000000 to 50000000
+2026-01-24 20:35:30,505 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-24 20:35:32,941 - INFO - Computing features for radius 0.125
+2026-01-24 20:35:32,941 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 20:36:06,836 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 20:36:06,836 - INFO - Features computed for radius 0.125 in 33.89 seconds
+2026-01-24 20:36:06,858 - INFO - Computing features for radius 0.25
+2026-01-24 20:36:06,859 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 20:36:52,689 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 20:36:52,689 - INFO - Features computed for radius 0.25 in 45.83 seconds
+2026-01-24 20:36:52,718 - INFO - Computing features for radius 0.5
+2026-01-24 20:36:52,718 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 20:38:17,668 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 20:38:17,668 - INFO - Features computed for radius 0.5 in 84.95 seconds
+2026-01-24 20:38:17,695 - INFO - Computing features for radius 0.75
+2026-01-24 20:38:17,695 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 20:40:46,802 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 20:40:46,802 - INFO - Features computed for radius 0.75 in 149.11 seconds
+2026-01-24 20:40:46,825 - INFO - Computing features for radius 1
+2026-01-24 20:40:46,825 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 20:44:41,553 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 20:44:41,553 - INFO - Features computed for radius 1 in 234.73 seconds
+2026-01-24 20:44:41,574 - INFO - Computing features for radius 2
+2026-01-24 20:44:41,574 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 20:57:31,631 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 20:57:31,631 - INFO - Features computed for radius 2 in 770.06 seconds
+2026-01-24 20:57:31,651 - INFO - Computing features for radius 3
+2026-01-24 20:57:31,651 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 21:25:58,835 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 21:25:58,835 - INFO - Features computed for radius 3 in 1707.18 seconds
+2026-01-24 21:25:58,853 - INFO - Computing features for radius 5
+2026-01-24 21:25:58,853 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 22:47:31,355 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 22:47:31,355 - INFO - Features computed for radius 5 in 4892.50 seconds
+2026-01-24 22:47:33,519 - INFO - Feature matrix shape: (9986286, 31)
+2026-01-24 22:47:33,519 - INFO - Performing prediction
+2026-01-24 22:47:56,823 - INFO - Applying classification filters
+2026-01-24 22:47:56,823 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/inf_chunk2_4.las
+2026-01-24 22:47:58,535 - INFO - Completed processing chunk 4
+2026-01-24 22:47:58,535 - INFO - Processing chunk 6/7, points 50000000 to 60000000
+2026-01-24 22:47:58,535 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-24 22:48:00,965 - INFO - Computing features for radius 0.125
+2026-01-24 22:48:00,965 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 22:48:36,428 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 22:48:36,429 - INFO - Features computed for radius 0.125 in 35.46 seconds
+2026-01-24 22:48:36,453 - INFO - Computing features for radius 0.25
+2026-01-24 22:48:36,453 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 22:49:24,416 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 22:49:24,416 - INFO - Features computed for radius 0.25 in 47.96 seconds
+2026-01-24 22:49:24,448 - INFO - Computing features for radius 0.5
+2026-01-24 22:49:24,448 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 22:50:49,042 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 22:50:49,042 - INFO - Features computed for radius 0.5 in 84.59 seconds
+2026-01-24 22:50:49,064 - INFO - Computing features for radius 0.75
+2026-01-24 22:50:49,064 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 22:53:13,207 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 22:53:13,207 - INFO - Features computed for radius 0.75 in 144.14 seconds
+2026-01-24 22:53:13,228 - INFO - Computing features for radius 1
+2026-01-24 22:53:13,229 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 22:56:53,912 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 22:56:53,913 - INFO - Features computed for radius 1 in 220.68 seconds
+2026-01-24 22:56:53,938 - INFO - Computing features for radius 2
+2026-01-24 22:56:53,938 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 23:08:49,211 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 23:08:49,211 - INFO - Features computed for radius 2 in 715.27 seconds
+2026-01-24 23:08:49,235 - INFO - Computing features for radius 3
+2026-01-24 23:08:49,235 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-24 23:34:37,909 - INFO - Features computed with shape: (10000000, 3)
+2026-01-24 23:34:37,909 - INFO - Features computed for radius 3 in 1548.67 seconds
+2026-01-24 23:34:37,928 - INFO - Computing features for radius 5
+2026-01-24 23:34:37,928 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-25 00:55:36,316 - INFO - Features computed with shape: (10000000, 3)
+2026-01-25 00:55:36,317 - INFO - Features computed for radius 5 in 4858.39 seconds
+2026-01-25 00:55:38,446 - INFO - Feature matrix shape: (9989610, 31)
+2026-01-25 00:55:38,446 - INFO - Performing prediction
+2026-01-25 00:56:04,511 - INFO - Applying classification filters
+2026-01-25 00:56:04,511 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/inf_chunk2_5.las
+2026-01-25 00:56:06,154 - INFO - Completed processing chunk 5
+2026-01-25 00:56:06,154 - INFO - Processing chunk 7/7, points 60000000 to 64773871
+2026-01-25 00:56:06,154 - INFO - Processing RGB array of shape (4773871, 3)
+2026-01-25 00:56:07,391 - INFO - Computing features for radius 0.125
+2026-01-25 00:56:07,391 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-25 00:56:25,410 - INFO - Features computed with shape: (4773871, 3)
+2026-01-25 00:56:25,410 - INFO - Features computed for radius 0.125 in 18.02 seconds
+2026-01-25 00:56:25,437 - INFO - Computing features for radius 0.25
+2026-01-25 00:56:25,437 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-25 00:56:49,539 - INFO - Features computed with shape: (4773871, 3)
+2026-01-25 00:56:49,539 - INFO - Features computed for radius 0.25 in 24.10 seconds
+2026-01-25 00:56:49,564 - INFO - Computing features for radius 0.5
+2026-01-25 00:56:49,564 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-25 00:57:31,157 - INFO - Features computed with shape: (4773871, 3)
+2026-01-25 00:57:31,157 - INFO - Features computed for radius 0.5 in 41.59 seconds
+2026-01-25 00:57:31,182 - INFO - Computing features for radius 0.75
+2026-01-25 00:57:31,182 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-25 00:58:41,877 - INFO - Features computed with shape: (4773871, 3)
+2026-01-25 00:58:41,877 - INFO - Features computed for radius 0.75 in 70.70 seconds
+2026-01-25 00:58:41,899 - INFO - Computing features for radius 1
+2026-01-25 00:58:41,899 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-25 01:00:30,483 - INFO - Features computed with shape: (4773871, 3)
+2026-01-25 01:00:30,483 - INFO - Features computed for radius 1 in 108.58 seconds
+2026-01-25 01:00:30,504 - INFO - Computing features for radius 2
+2026-01-25 01:00:30,504 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-25 01:06:30,392 - INFO - Features computed with shape: (4773871, 3)
+2026-01-25 01:06:30,392 - INFO - Features computed for radius 2 in 359.89 seconds
+2026-01-25 01:06:30,412 - INFO - Computing features for radius 3
+2026-01-25 01:06:30,413 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-25 01:19:33,394 - INFO - Features computed with shape: (4773871, 3)
+2026-01-25 01:19:33,394 - INFO - Features computed for radius 3 in 782.98 seconds
+2026-01-25 01:19:33,415 - INFO - Computing features for radius 5
+2026-01-25 01:19:33,415 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 08:54:02,616 - INFO - Starting script.
+2026-01-26 08:54:02,647 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/'}
+2026-01-26 08:54:02,647 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-26 08:54:07,930 - INFO - Model loaded successfully
+2026-01-26 08:54:07,930 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-26 08:54:07,973 - INFO - Total points in input file: 64773871
+2026-01-26 08:54:07,974 - INFO - Reading points from LAS file
+2026-01-26 08:54:26,988 - INFO - Sorting points by coordinates
+2026-01-26 08:54:53,786 - INFO - Processing 7 chunks of 10000000 points each
+2026-01-26 08:54:53,786 - INFO - Processing chunk 1/7, points 0 to 10000000
+2026-01-26 08:54:53,787 - ERROR - An error occurred: local variable 'pt_chunk' referenced before assignment
+2026-01-26 08:55:46,536 - INFO - Starting script.
+2026-01-26 08:55:46,537 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/'}
+2026-01-26 08:55:46,537 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-26 08:55:47,175 - INFO - Model loaded successfully
+2026-01-26 08:55:47,175 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-26 08:55:47,175 - INFO - Total points in input file: 64773871
+2026-01-26 08:55:47,175 - INFO - Reading points from LAS file
+2026-01-26 08:55:50,037 - INFO - Sorting points by coordinates
+2026-01-26 08:56:16,523 - INFO - Processing 7 chunks of 10000000 points each
+2026-01-26 08:56:16,523 - INFO - Processing chunk 1/7, points 0 to 10000000
+2026-01-26 08:56:25,164 - INFO - Downsampled chunk to 5904721 points
+2026-01-26 08:56:25,164 - INFO - Processing chunk 2/7, points 10000000 to 20000000
+2026-01-26 09:00:34,183 - INFO - Starting script.
+2026-01-26 09:00:34,185 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/', 'voxel_downsample': 0.05}
+2026-01-26 09:00:34,185 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-26 09:00:34,820 - INFO - Model loaded successfully
+2026-01-26 09:00:34,820 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-26 09:00:34,820 - INFO - Total points in input file: 64773871
+2026-01-26 09:00:34,820 - INFO - Reading points from LAS file
+2026-01-26 09:00:37,697 - INFO - Sorting points by coordinates
+2026-01-26 09:01:17,484 - INFO - Starting script.
+2026-01-26 09:01:17,485 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/', 'voxel_downsample': 0.05}
+2026-01-26 09:01:17,485 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-26 09:01:18,131 - INFO - Model loaded successfully
+2026-01-26 09:01:18,131 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-26 09:01:18,132 - INFO - Total points in input file: 64773871
+2026-01-26 09:01:18,132 - INFO - Reading points from LAS file
+2026-01-26 09:01:20,982 - INFO - Sorting points by coordinates
+2026-01-26 09:01:47,442 - INFO - Processing 7 chunks of 10000000 points each
+2026-01-26 09:01:47,442 - INFO - Processing chunk 1/7, points 0 to 10000000
+2026-01-26 09:01:47,560 - INFO - Applying voxel downsampling
+2026-01-26 09:01:56,409 - INFO - Downsampled chunk to 5904721 points
+2026-01-26 09:01:56,409 - INFO - Processing RGB array of shape (5904721, 3)
+2026-01-26 09:01:57,492 - INFO - Computing features for radius 0.125
+2026-01-26 09:01:57,492 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 09:02:06,258 - INFO - Features computed with shape: (5904721, 3)
+2026-01-26 09:02:06,258 - INFO - Features computed for radius 0.125 in 8.77 seconds
+2026-01-26 09:02:06,300 - INFO - Computing features for radius 0.25
+2026-01-26 09:02:06,300 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 09:02:16,618 - INFO - Features computed with shape: (5904721, 3)
+2026-01-26 09:02:16,618 - INFO - Features computed for radius 0.25 in 10.32 seconds
+2026-01-26 09:02:16,665 - INFO - Computing features for radius 0.5
+2026-01-26 09:02:16,665 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 09:02:34,098 - INFO - Features computed with shape: (5904721, 3)
+2026-01-26 09:02:34,098 - INFO - Features computed for radius 0.5 in 17.43 seconds
+2026-01-26 09:02:34,144 - INFO - Computing features for radius 0.75
+2026-01-26 09:02:34,144 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 09:03:01,869 - INFO - Features computed with shape: (5904721, 3)
+2026-01-26 09:03:01,870 - INFO - Features computed for radius 0.75 in 27.73 seconds
+2026-01-26 09:03:01,916 - INFO - Computing features for radius 1
+2026-01-26 09:03:01,916 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 09:06:47,311 - INFO - Starting script.
+2026-01-26 09:06:47,312 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/', 'voxel_downsample': 0.05}
+2026-01-26 09:06:47,312 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-26 09:06:47,960 - INFO - Model loaded successfully
+2026-01-26 09:06:47,961 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-26 09:06:47,961 - INFO - Total points in input file: 64773871
+2026-01-26 09:06:47,961 - INFO - Reading points from LAS file
+2026-01-26 09:06:49,340 - INFO - Applying voxel downsampling
+2026-01-26 09:06:49,341 - ERROR - An error occurred: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+2026-01-26 09:07:08,361 - INFO - Starting script.
+2026-01-26 09:07:08,362 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/', 'voxel_downsample': 0.05}
+2026-01-26 09:07:08,363 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-26 09:07:09,014 - INFO - Model loaded successfully
+2026-01-26 09:07:09,015 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-26 09:07:09,015 - INFO - Total points in input file: 64773871
+2026-01-26 09:07:09,015 - INFO - Reading points from LAS file
+2026-01-26 09:07:10,399 - INFO - Applying voxel downsampling
+2026-01-26 09:07:10,400 - ERROR - An error occurred: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+2026-01-26 09:08:31,469 - INFO - Starting script.
+2026-01-26 09:08:31,471 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/', 'voxel_downsample': 0.05}
+2026-01-26 09:08:31,471 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-26 09:08:32,111 - INFO - Model loaded successfully
+2026-01-26 09:08:32,111 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-26 09:08:32,111 - INFO - Total points in input file: 64773871
+2026-01-26 09:08:32,111 - INFO - Reading points from LAS file
+2026-01-26 09:08:34,987 - INFO - Applying voxel downsampling
+2026-01-26 09:09:04,318 - ERROR - An error occurred: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+2026-01-26 09:10:31,395 - INFO - Starting script.
+2026-01-26 09:10:31,396 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/', 'voxel_downsample': 0.05}
+2026-01-26 09:10:31,396 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-26 09:10:32,036 - INFO - Model loaded successfully
+2026-01-26 09:10:32,036 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-26 09:10:32,036 - INFO - Total points in input file: 64773871
+2026-01-26 09:10:32,036 - INFO - Reading points from LAS file
+2026-01-26 09:10:34,904 - INFO - Points read with shape: (64773871, 7)
+2026-01-26 09:10:34,904 - INFO - Applying voxel downsampling
+2026-01-26 09:13:40,806 - INFO - Starting script.
+2026-01-26 09:13:40,807 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/', 'voxel_downsample': 0.05}
+2026-01-26 09:13:40,808 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-26 09:13:41,454 - INFO - Model loaded successfully
+2026-01-26 09:13:41,454 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-26 09:13:41,454 - INFO - Total points in input file: 64773871
+2026-01-26 09:13:41,454 - INFO - Reading points from LAS file
+2026-01-26 09:13:44,326 - INFO - Points read with shape: (64773871, 7)
+2026-01-26 09:13:44,326 - INFO - Applying voxel downsampling
+2026-01-26 09:15:29,656 - ERROR - An error occurred: 'open3d.cuda.pybind.geometry.PointCloud' object has no attribute 'all_points'
+2026-01-26 09:15:58,716 - INFO - Starting script.
+2026-01-26 09:15:58,718 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/', 'voxel_downsample': 0.05}
+2026-01-26 09:15:58,718 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-26 09:15:59,367 - INFO - Model loaded successfully
+2026-01-26 09:15:59,367 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-26 09:15:59,367 - INFO - Total points in input file: 64773871
+2026-01-26 09:15:59,367 - INFO - Reading points from LAS file
+2026-01-26 09:16:02,216 - INFO - Points read with shape: (64773871, 7)
+2026-01-26 09:16:02,216 - INFO - Applying voxel downsampling
+2026-01-26 09:17:49,048 - INFO - Downsampled point cloud shape: (38358648, 7)
+2026-01-26 09:18:18,929 - INFO - Starting script.
+2026-01-26 09:18:18,931 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/', 'voxel_downsample': 0.05}
+2026-01-26 09:18:18,931 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-26 09:18:19,590 - INFO - Model loaded successfully
+2026-01-26 09:18:19,590 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-26 09:18:19,591 - INFO - Total points in input file: 64773871
+2026-01-26 09:18:19,591 - INFO - Reading points from LAS file
+2026-01-26 09:18:22,550 - INFO - Points read with shape: (64773871, 7)
+2026-01-26 09:18:22,550 - INFO - Applying voxel downsampling
+2026-01-26 09:20:21,763 - INFO - Starting script.
+2026-01-26 09:20:21,764 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/', 'voxel_downsample': 0.05}
+2026-01-26 09:20:21,764 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-26 09:20:22,409 - INFO - Model loaded successfully
+2026-01-26 09:20:22,409 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-26 09:20:22,410 - INFO - Total points in input file: 64773871
+2026-01-26 09:20:22,410 - INFO - Reading points from LAS file
+2026-01-26 09:20:29,776 - INFO - Points read with shape: (64773871, 7)
+2026-01-26 09:20:29,776 - INFO - Applying voxel downsampling
+2026-01-26 09:22:16,218 - INFO - Downsampled point cloud shape: (38358648, 7)
+2026-01-26 09:22:19,303 - INFO - Sorting points by coordinates
+2026-01-26 09:24:17,834 - INFO - Starting script.
+2026-01-26 09:24:17,835 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/', 'voxel_downsample': 0.05}
+2026-01-26 09:24:17,835 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-26 09:24:18,471 - INFO - Model loaded successfully
+2026-01-26 09:24:18,471 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-26 09:24:18,472 - INFO - Total points in input file: 64773871
+2026-01-26 09:24:18,472 - INFO - Reading points from LAS file
+2026-01-26 09:24:25,836 - INFO - Points read with shape: (64773871, 7)
+2026-01-26 09:24:25,836 - INFO - Applying voxel downsampling
+2026-01-26 09:28:12,867 - INFO - Downsampled point cloud shape: (38358648, 7)
+2026-01-26 09:29:34,858 - INFO - Starting script.
+2026-01-26 09:29:34,859 - INFO - Configuration: {'model_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl', 'input_las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las', 'output_dir': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/', 'voxel_downsample': 0.05}
+2026-01-26 09:29:34,859 - INFO - Loading model from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+2026-01-26 09:29:35,497 - INFO - Model loaded successfully
+2026-01-26 09:29:35,497 - INFO - Processing input file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-26 09:29:35,497 - INFO - Total points in input file: 64773871
+2026-01-26 09:29:35,497 - INFO - Reading points from LAS file
+2026-01-26 09:29:38,384 - INFO - Points read with shape: (64773871, 7)
+2026-01-26 09:29:43,039 - INFO - Distance stats - max: 116.40193176269531, min: 0.0, mean: 4.07952430748998
+2026-01-26 09:29:43,039 - INFO - Applying voxel downsampling
+2026-01-26 09:33:27,838 - INFO - Downsampled point cloud shape: (38358648, 7)
+2026-01-26 09:33:30,643 - INFO - Distance stats - max: 116.40193176269531, min: 0.0, mean: 3.8417730381345767
+2026-01-26 09:33:30,839 - INFO - Sorting points by coordinates
+2026-01-26 09:33:46,001 - INFO - Processing 4 chunks of 10000000 points each
+2026-01-26 09:33:46,001 - INFO - Processing chunk 1/4, points 0 to 10000000
+2026-01-26 09:33:46,001 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-26 09:33:47,760 - INFO - Computing features for radius 0.125
+2026-01-26 09:33:47,760 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 09:34:00,746 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 09:34:00,746 - INFO - Features computed for radius 0.125 in 12.99 seconds
+2026-01-26 09:34:00,790 - INFO - Computing features for radius 0.25
+2026-01-26 09:34:00,790 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 09:34:14,985 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 09:34:14,985 - INFO - Features computed for radius 0.25 in 14.20 seconds
+2026-01-26 09:34:15,031 - INFO - Computing features for radius 0.5
+2026-01-26 09:34:15,031 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 09:34:35,001 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 09:34:35,001 - INFO - Features computed for radius 0.5 in 19.97 seconds
+2026-01-26 09:34:35,046 - INFO - Computing features for radius 0.75
+2026-01-26 09:34:35,046 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 09:35:04,658 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 09:35:04,658 - INFO - Features computed for radius 0.75 in 29.61 seconds
+2026-01-26 09:35:04,706 - INFO - Computing features for radius 1
+2026-01-26 09:35:04,706 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 09:35:47,310 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 09:35:47,310 - INFO - Features computed for radius 1 in 42.60 seconds
+2026-01-26 09:35:47,356 - INFO - Computing features for radius 2
+2026-01-26 09:35:47,356 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 09:37:54,889 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 09:37:54,889 - INFO - Features computed for radius 2 in 127.53 seconds
+2026-01-26 09:37:54,937 - INFO - Computing features for radius 3
+2026-01-26 09:37:54,937 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 09:42:19,758 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 09:42:19,758 - INFO - Features computed for radius 3 in 264.82 seconds
+2026-01-26 09:42:19,806 - INFO - Computing features for radius 5
+2026-01-26 09:42:19,806 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 09:59:25,058 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 09:59:25,058 - INFO - Features computed for radius 5 in 1025.25 seconds
+2026-01-26 09:59:27,051 - INFO - Feature matrix shape: (9994489, 31)
+2026-01-26 09:59:27,051 - INFO - Performing prediction
+2026-01-26 09:59:39,305 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/inf_chunk2_0.las
+2026-01-26 09:59:40,563 - INFO - Completed processing chunk 0
+2026-01-26 09:59:40,563 - INFO - Processing chunk 2/4, points 10000000 to 20000000
+2026-01-26 09:59:40,563 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-26 09:59:42,357 - INFO - Computing features for radius 0.125
+2026-01-26 09:59:42,357 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 09:59:55,731 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 09:59:55,732 - INFO - Features computed for radius 0.125 in 13.37 seconds
+2026-01-26 09:59:55,774 - INFO - Computing features for radius 0.25
+2026-01-26 09:59:55,774 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:00:10,587 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:00:10,587 - INFO - Features computed for radius 0.25 in 14.81 seconds
+2026-01-26 10:00:10,635 - INFO - Computing features for radius 0.5
+2026-01-26 10:00:10,635 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:00:31,233 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:00:31,234 - INFO - Features computed for radius 0.5 in 20.60 seconds
+2026-01-26 10:00:31,298 - INFO - Computing features for radius 0.75
+2026-01-26 10:00:31,298 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:01:01,279 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:01:01,279 - INFO - Features computed for radius 0.75 in 29.98 seconds
+2026-01-26 10:01:01,323 - INFO - Computing features for radius 1
+2026-01-26 10:01:01,323 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:01:44,970 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:01:44,970 - INFO - Features computed for radius 1 in 43.65 seconds
+2026-01-26 10:01:45,016 - INFO - Computing features for radius 2
+2026-01-26 10:01:45,016 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:03:54,036 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:03:54,036 - INFO - Features computed for radius 2 in 129.02 seconds
+2026-01-26 10:03:54,081 - INFO - Computing features for radius 3
+2026-01-26 10:03:54,081 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:08:24,629 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:08:24,629 - INFO - Features computed for radius 3 in 270.55 seconds
+2026-01-26 10:08:24,670 - INFO - Computing features for radius 5
+2026-01-26 10:08:24,670 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:26:11,170 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:26:11,170 - INFO - Features computed for radius 5 in 1066.50 seconds
+2026-01-26 10:26:13,183 - INFO - Feature matrix shape: (9995038, 31)
+2026-01-26 10:26:13,184 - INFO - Performing prediction
+2026-01-26 10:26:25,556 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/inf_chunk2_1.las
+2026-01-26 10:26:26,806 - INFO - Completed processing chunk 1
+2026-01-26 10:26:26,806 - INFO - Processing chunk 3/4, points 20000000 to 30000000
+2026-01-26 10:26:26,807 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-26 10:26:28,578 - INFO - Computing features for radius 0.125
+2026-01-26 10:26:28,579 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:26:41,769 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:26:41,770 - INFO - Features computed for radius 0.125 in 13.19 seconds
+2026-01-26 10:26:41,813 - INFO - Computing features for radius 0.25
+2026-01-26 10:26:41,813 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:26:56,064 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:26:56,064 - INFO - Features computed for radius 0.25 in 14.25 seconds
+2026-01-26 10:26:56,106 - INFO - Computing features for radius 0.5
+2026-01-26 10:26:56,106 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:27:16,006 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:27:16,006 - INFO - Features computed for radius 0.5 in 19.90 seconds
+2026-01-26 10:27:16,051 - INFO - Computing features for radius 0.75
+2026-01-26 10:27:16,051 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:27:45,029 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:27:45,029 - INFO - Features computed for radius 0.75 in 28.98 seconds
+2026-01-26 10:27:45,078 - INFO - Computing features for radius 1
+2026-01-26 10:27:45,078 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:28:26,281 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:28:26,281 - INFO - Features computed for radius 1 in 41.20 seconds
+2026-01-26 10:28:26,327 - INFO - Computing features for radius 2
+2026-01-26 10:28:26,327 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:30:25,946 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:30:25,946 - INFO - Features computed for radius 2 in 119.62 seconds
+2026-01-26 10:30:25,994 - INFO - Computing features for radius 3
+2026-01-26 10:30:25,994 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:34:32,030 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:34:32,030 - INFO - Features computed for radius 3 in 246.04 seconds
+2026-01-26 10:34:32,076 - INFO - Computing features for radius 5
+2026-01-26 10:34:32,076 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:51:10,400 - INFO - Features computed with shape: (10000000, 3)
+2026-01-26 10:51:10,400 - INFO - Features computed for radius 5 in 998.32 seconds
+2026-01-26 10:51:12,461 - INFO - Feature matrix shape: (9990217, 31)
+2026-01-26 10:51:12,461 - INFO - Performing prediction
+2026-01-26 10:51:25,601 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/inf_chunk2_2.las
+2026-01-26 10:51:26,847 - INFO - Completed processing chunk 2
+2026-01-26 10:51:26,847 - INFO - Processing chunk 4/4, points 30000000 to 38358648
+2026-01-26 10:51:26,847 - INFO - Processing RGB array of shape (8358648, 3)
+2026-01-26 10:51:28,305 - INFO - Computing features for radius 0.125
+2026-01-26 10:51:28,305 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:51:39,111 - INFO - Features computed with shape: (8358648, 3)
+2026-01-26 10:51:39,111 - INFO - Features computed for radius 0.125 in 10.81 seconds
+2026-01-26 10:51:39,157 - INFO - Computing features for radius 0.25
+2026-01-26 10:51:39,157 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:51:50,608 - INFO - Features computed with shape: (8358648, 3)
+2026-01-26 10:51:50,609 - INFO - Features computed for radius 0.25 in 11.45 seconds
+2026-01-26 10:51:50,654 - INFO - Computing features for radius 0.5
+2026-01-26 10:51:50,654 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:52:05,704 - INFO - Features computed with shape: (8358648, 3)
+2026-01-26 10:52:05,704 - INFO - Features computed for radius 0.5 in 15.05 seconds
+2026-01-26 10:52:05,748 - INFO - Computing features for radius 0.75
+2026-01-26 10:52:05,748 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:52:26,775 - INFO - Features computed with shape: (8358648, 3)
+2026-01-26 10:52:26,776 - INFO - Features computed for radius 0.75 in 21.03 seconds
+2026-01-26 10:52:26,819 - INFO - Computing features for radius 1
+2026-01-26 10:52:26,819 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:52:55,879 - INFO - Features computed with shape: (8358648, 3)
+2026-01-26 10:52:55,880 - INFO - Features computed for radius 1 in 29.06 seconds
+2026-01-26 10:52:55,929 - INFO - Computing features for radius 2
+2026-01-26 10:52:55,929 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:54:17,250 - INFO - Features computed with shape: (8358648, 3)
+2026-01-26 10:54:17,250 - INFO - Features computed for radius 2 in 81.32 seconds
+2026-01-26 10:54:17,298 - INFO - Computing features for radius 3
+2026-01-26 10:54:17,298 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 10:56:57,973 - INFO - Features computed with shape: (8358648, 3)
+2026-01-26 10:56:57,973 - INFO - Features computed for radius 3 in 160.68 seconds
+2026-01-26 10:56:58,019 - INFO - Computing features for radius 5
+2026-01-26 10:56:58,019 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-26 11:05:36,510 - INFO - Features computed with shape: (8358648, 3)
+2026-01-26 11:05:36,511 - INFO - Features computed for radius 5 in 518.49 seconds
+2026-01-26 11:05:38,164 - INFO - Feature matrix shape: (8351873, 31)
+2026-01-26 11:05:38,164 - INFO - Performing prediction
+2026-01-26 11:05:48,794 - INFO - Writing results to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/inf_chunk2_3.las
+2026-01-26 11:05:49,784 - INFO - Completed processing chunk 3
+2026-01-26 11:05:49,784 - INFO - Processing completed successfully

@@ -1,0 +1,5 @@
+data_path: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/curb_training_data/'
+model_name: 'xgboost'  
+model_output_path: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_xg_final_26.pkl'
+
+

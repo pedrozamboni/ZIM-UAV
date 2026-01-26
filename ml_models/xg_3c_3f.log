@@ -1,0 +1,27 @@
+2025-09-05 13:22:08,165 - INFO - Starting main execution
+2025-09-05 13:22:08,166 - INFO - Parsing configuration file
+2025-09-05 13:22:08,167 - INFO - Configuration loaded: {'data_path': '/home/pedro/Documents/Documents/projects/pointcloud/h3d/2019/data_corrected/down/', 'features_to_use': ['surface_variation', 'sphericity', 'verticality'], 'transdict': {0: 0, 1: 1, 2: 0, 3: 0, 4: 2, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0}, 'model_name': 'xgboost', 'model_output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/xg_3c_pkl'}
+2025-09-05 13:22:08,167 - INFO - Loading training data
+2025-09-05 13:22:08,167 - INFO - Loading feature files from /home/pedro/Documents/Documents/projects/pointcloud/h3d/2019/data_corrected/down/
+2025-09-05 13:22:12,640 - INFO - Feature array shape after stacking: (9657927, 31)
+2025-09-05 13:22:20,896 - INFO - Total samples: 9657927
+2025-09-05 13:22:23,705 - INFO - Training samples: 7243445, Test samples: 2414482
+2025-09-05 13:22:23,778 - INFO - Creating and training model
+2025-09-05 13:22:23,778 - INFO - Creating xgboost model
+2025-09-05 13:22:23,778 - INFO - Successfully created xgboost model
+2025-09-05 13:26:38,923 - INFO - Making predictions on test set
+2025-09-05 13:26:49,639 - INFO - Calculating classification metrics
+2025-09-05 13:26:51,550 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99   1294949
+           1       0.98      0.97      0.98    547909
+           2       1.00      0.99      1.00    571624
+
+    accuracy                           0.99   2414482
+   macro avg       0.99      0.99      0.99   2414482
+weighted avg       0.99      0.99      0.99   2414482
+
+2025-09-05 13:26:51,550 - INFO - Generating confusion matrix
+2025-09-05 13:26:52,083 - INFO - Saving model
+2025-09-05 13:26:52,599 - INFO - Model successfully saved to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/xg_3c_pkl
