@@ -1,0 +1,23 @@
+### INPUT VARIABLES
+input_shapefile: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/object_extractions_Poppenhausen/object_extractions/v3/street_pg.shp"
+point_cloud_path: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las"
+
+### OUTPUT PATH
+output_directory: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/"
+filename: 'poppenhausen_street'
+
+### CONFIG VARIBALES FOR SHP SKELETONIZATION
+skeleton_resolution: 0.05
+erode_radius: 30
+
+### CONFIG VARIBLE FOR POINT FILTER
+min_distance: 2.0
+
+### CONFIG VARIABLES FOR ELEVATION EXTRACTION
+batch_size: 300  
+k_nearest: 10
+
+
+
+##### TO DO
+### add closening for shap
