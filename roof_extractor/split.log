@@ -1,0 +1,29 @@
+2026-01-26 13:46:20,623 - INFO - Reading LAS file from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/all.las
+2026-01-26 13:46:22,780 - INFO - Reading points from LAS file
+2026-01-26 13:48:20,179 - INFO - Reading LAS file from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/all.las
+2026-01-26 13:48:22,390 - INFO - Reading points from LAS file
+2026-01-26 13:48:25,341 - INFO - Points read with shape: (100238348, 7)
+2026-01-26 13:48:26,227 - INFO - Class 1 points: 9415952
+2026-01-26 13:48:26,227 - INFO - Class 2 points (roof): 8732332
+2026-01-26 13:48:26,227 - INFO - Writing roof points (class 2) to roof_output.las
+2026-01-26 13:48:34,939 - INFO - Reading LAS file from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/all.las
+2026-01-26 13:48:37,149 - INFO - Reading points from LAS file
+2026-01-26 13:48:40,112 - INFO - Points read with shape: (100238348, 7)
+2026-01-26 13:48:41,013 - INFO - Class 1 points: 9415952
+2026-01-26 13:48:41,013 - INFO - Class 2 points (roof): 8732332
+2026-01-26 13:48:41,013 - INFO - Writing roof points (class 2) to roof_output.las
+2026-01-26 13:48:42,198 - INFO - Successfully saved roof points to roof_output.las
+2026-01-26 13:50:18,243 - INFO - Reading LAS file from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/all.las
+2026-01-26 13:50:20,448 - INFO - Reading points from LAS file
+2026-01-26 13:50:23,446 - INFO - Points read with shape: (100238348, 7)
+2026-01-26 13:50:24,374 - INFO - Class 1 points: 9415952
+2026-01-26 13:50:24,374 - INFO - Class 2 points (roof): 8732332
+2026-01-26 13:50:24,374 - INFO - Writing roof points (class 2) to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/all_roof.las
+2026-01-26 13:50:25,542 - INFO - Successfully saved roof points to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_rf_3c/all_roof.las
+2026-01-26 13:53:36,289 - INFO - Reading LAS file from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/all.las
+2026-01-26 13:53:37,589 - INFO - Reading points from LAS file
+2026-01-26 13:53:39,075 - INFO - Points read with shape: (59948922, 7)
+2026-01-26 13:53:39,707 - INFO - Class 1 points: 6676526
+2026-01-26 13:53:39,708 - INFO - Class 2 points (roof): 16793303
+2026-01-26 13:53:39,708 - INFO - Writing roof points (class 2) to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/all_roof.las
+2026-01-26 13:53:41,922 - INFO - Successfully saved roof points to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/all_roof.las
