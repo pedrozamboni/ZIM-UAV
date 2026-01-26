@@ -2,9 +2,9 @@
 
 ## README 
 ### Requirements 
-Ubuntu (22.04 or higher) or other ubuntu based linux distro
-64 Gb of ram memory
-10 core cpu
+  - Ubuntu (22.04 or higher) or other ubuntu based linux distro  
+  - 64 Gb of ram memory
+  - 10 core cpu
 
 ## Prepare the environment:
 Install requirements.txt
