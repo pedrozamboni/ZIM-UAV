@@ -1,0 +1,7 @@
+2026-01-23 11:40:39,846 - INFO - Configuration loaded from ./pp_distacen.yml
+2026-01-23 11:40:39,846 - INFO - Processing LAS file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Poppenhausen_supsampled_random_1.2.las
+2026-01-23 11:40:39,846 - INFO - Using DEM file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground_final.tif
+2026-01-23 11:40:39,846 - INFO - Output will be saved to: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_hag.las
+2026-01-23 11:41:16,800 - INFO - Saved LAS with 100447329 points
+2026-01-23 11:41:16,801 - INFO - Z = original elevation, 'distance' = point-to-DEM difference
+2026-01-23 11:41:17,341 - INFO - Processing completed successfully

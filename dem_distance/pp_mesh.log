@@ -1,0 +1,14 @@
+2026-01-23 11:29:04,982 - INFO - Starting script.
+2026-01-23 11:29:04,983 - INFO - Configuration: {'las_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground.las', 'output_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground_raw.tif', 'output_path_final': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground_final.tif'}
+2026-01-23 11:29:04,983 - INFO - Starting mesh generation from /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground.las
+2026-01-23 11:29:04,983 - INFO - Executing PDAL pipeline...
+2026-01-23 11:30:23,717 - INFO - Reading raw mesh...
+2026-01-23 11:30:23,749 - WARNING - CPLE_AppDefined in PROJ: internal_proj_create_from_database: /home/pedro/anaconda3/envs/pointcloud/share/proj/proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 3 is expected. It comes from another PROJ installation.
+2026-01-23 11:30:23,749 - WARNING - CPLE_AppDefined in The definition of projected CRS EPSG:25832 got from GeoTIFF keys is not the same as the one from the EPSG registry, which may cause issues during reprojection operations. Set GTIFF_SRS_SOURCE configuration option to EPSG to use official parameters (overriding the ones from GeoTIFF keys), or to GEOKEYS to use custom values from GeoTIFF keys and drop the EPSG code.
+2026-01-23 11:30:23,760 - INFO - Raw mesh shape: (669, 585)
+2026-01-23 11:30:23,760 - INFO - Filling nodata values...
+2026-01-23 11:30:23,777 - INFO - Saving final mesh to /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground_final.tif
+2026-01-23 11:30:23,803 - INFO - Mesh generation complete
+2026-01-23 11:30:23,846 - INFO - DEM generation complete
+2026-01-23 11:30:23,846 - INFO - Process finished
+2026-01-23 11:30:23,846 - INFO - Mesh saved: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground_final.tif

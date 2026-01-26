@@ -1,0 +1,7 @@
+2026-01-23 11:38:11,539 - INFO - Configuration loaded from ./maib_distance.yml
+2026-01-23 11:38:11,539 - INFO - Processing LAS file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Maibach_pointcloud_highquality_downsampled.las
+2026-01-23 11:38:11,539 - INFO - Using DEM file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_ground_final.tif
+2026-01-23 11:38:11,539 - INFO - Output will be saved to: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+2026-01-23 11:38:34,216 - INFO - Saved LAS with 64773871 points
+2026-01-23 11:38:34,216 - INFO - Z = original elevation, 'distance' = point-to-DEM difference
+2026-01-23 11:38:34,571 - INFO - Processing completed successfully

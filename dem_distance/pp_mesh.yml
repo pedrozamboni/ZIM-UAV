@@ -1,0 +1,3 @@
+las_path: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground.las"  # Replace with your LAS file path
+output_path: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground_raw.tif"  # Output mesh file
+output_path_final: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground_final.tif"  # Output mesh file
