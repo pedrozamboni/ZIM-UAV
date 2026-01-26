@@ -1,4 +1,7 @@
 # ZIM-UAV
+# TO DO
+   - CLEAN REQUIREMENTS.TXT
+   - DOCKER CONTAINERS
 
 ## README 
 ### Requirements 
