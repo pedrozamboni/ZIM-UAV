@@ -1,0 +1,11 @@
+2026-01-23 11:04:38,771 - INFO - Starting script.
+2026-01-23 11:04:38,772 - INFO - Configuration: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Maibach_pointcloud_highquality_downsampled.las', 'cloth_resolution': 0.8, 'filename': 'maibach', 'max_interations': 250, 'path_out': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output', 'class_threshold': 0.5, 'sloopsmooth': True}
+2026-01-23 11:04:38,772 - INFO - Starting CSF filtering on file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Maibach_pointcloud_highquality_downsampled.las
+2026-01-23 11:04:38,772 - INFO - Parameters: cloth_resolution=0.8, max_iterations=250, class_threshold=0.5
+2026-01-23 11:04:39,883 - INFO - Total points to process: 64850511
+2026-01-23 11:06:20,656 - INFO - Ground points: 24628240, Non-ground points: 40222271
+2026-01-23 11:06:26,769 - INFO - Ground points saved to: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_ground.las
+2026-01-23 11:06:36,642 - INFO - Non-ground points saved to: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_non_ground.las
+2026-01-23 11:06:36,856 - INFO - CSF filtering completed successfully.
+2026-01-23 11:06:36,857 - INFO - Process finished
+2026-01-23 11:06:36,857 - INFO - Point cloud saved: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output

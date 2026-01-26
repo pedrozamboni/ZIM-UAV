@@ -1,0 +1,17 @@
+2026-01-23 11:09:14,846 - INFO - Starting script.
+2026-01-23 11:09:14,848 - INFO - Configuration: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Poppenhausen_supsampled_random_1.2.las.las', 'cloth_resolution': 0.8, 'filename': 'poppenhausen', 'max_interations': 250, 'path_out': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output', 'class_threshold': 0.5, 'sloopsmooth': True}
+2026-01-23 11:09:14,848 - INFO - Starting CSF filtering on file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Poppenhausen_supsampled_random_1.2.las.las
+2026-01-23 11:09:14,848 - INFO - Parameters: cloth_resolution=0.8, max_iterations=250, class_threshold=0.5
+2026-01-23 11:09:14,848 - ERROR - Error in CSF filtering: [Errno 2] No such file or directory: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Poppenhausen_supsampled_random_1.2.las.las'
+2026-01-23 11:09:14,848 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Poppenhausen_supsampled_random_1.2.las.las'
+2026-01-23 11:09:22,562 - INFO - Starting script.
+2026-01-23 11:09:22,563 - INFO - Configuration: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Poppenhausen_supsampled_random_1.2.las', 'cloth_resolution': 0.8, 'filename': 'poppenhausen', 'max_interations': 250, 'path_out': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output', 'class_threshold': 0.5, 'sloopsmooth': True}
+2026-01-23 11:09:22,564 - INFO - Starting CSF filtering on file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Poppenhausen_supsampled_random_1.2.las
+2026-01-23 11:09:22,564 - INFO - Parameters: cloth_resolution=0.8, max_iterations=250, class_threshold=0.5
+2026-01-23 11:09:24,562 - INFO - Total points to process: 100447331
+2026-01-23 11:11:58,751 - INFO - Ground points: 70163287, Non-ground points: 30284044
+2026-01-23 11:12:13,159 - INFO - Ground points saved to: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground.las
+2026-01-23 11:12:19,010 - INFO - Non-ground points saved to: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_non_ground.las
+2026-01-23 11:12:19,422 - INFO - CSF filtering completed successfully.
+2026-01-23 11:12:19,422 - INFO - Process finished
+2026-01-23 11:12:19,422 - INFO - Point cloud saved: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output

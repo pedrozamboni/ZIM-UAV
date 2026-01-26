@@ -1,0 +1,23 @@
+#### --- Separate ground to non ground points using CSF filter---####
+
+# path to the point cloud file
+pcd_path: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Maibach_pointcloud_highquality_downsampled.las'
+
+# cloth_resolution resolution
+cloth_resolution: 0.8
+
+filename: 'maibach'
+# max_interations
+max_interations: 250
+
+# path to save ground and non ground point clouds
+path_out: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output'
+
+#Default 0.5, use default
+class_threshold: 0.5
+
+# Default True, use Default
+sloopsmooth: True
+
+
+
