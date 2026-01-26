@@ -21,4 +21,6 @@ https://drive.google.com/file/d/1WEf3h2FaQrkC9usf_iB0dXyZDlOHbtB3/view?usp=shari
 
 ### Curb training data
 https://drive.google.com/file/d/1ATJL4guH_aOd5gyDWZ-397BUKv2CleRS/view?usp=sharing
-Tutorial - tutorial.pdf
+
+### Tutorial
+  - tutorial.pdf
