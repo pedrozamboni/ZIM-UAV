@@ -24,3 +24,38 @@ https://drive.google.com/file/d/1ATJL4guH_aOd5gyDWZ-397BUKv2CleRS/view?usp=shari
 
 ### Tutorial
   - tutorial.pdf
+
+## Repository Structure
+
+- **`input`**  
+  Contains the raw input point clouds and shapefiles provided by **Fraunhofer**.
+
+- **`crop_using_shapefile`**  
+  Scripts to crop point clouds using shapefiles provided by Fraunhofer as spatial constraints.
+
+- **`csf`**  
+  Implements the **Cloth Simulation Filter (CSF)** to separate ground points from non-ground points in the point cloud.
+
+- **`dem_distance`**  
+  Used to generate a **DEM** from ground points and to compute the distance of each point in the point cloud to the DEM.  
+  This distance is used as a feature for machine learning models.
+
+- **`downsample`**  
+  Tools to downsample point clouds to reduce data size and processing time.
+
+- **`fusion`**  
+  Used to merge **ALS** and **UAV** DEMs based on the segmentation results of the point cloud.
+
+- **`las_converter`**  
+  Converts point cloud LAS files to version **1.2** to improve compatibility with external libraries and simplify processing.
+
+- **`ml_models`**  
+  Contains scripts and configurations to train and run machine learning models for **segmentation** and **curb mapping**.
+
+- **`roof_extractor`**  
+  Uses the segmented point cloud and roof shapefiles provided by Fraunhofer to extract individual roof planes, including their **inclination** and **orientation**.
+
+- **`street_axis`**  
+  Uses the street point cloud and street shapefiles provided by Fraunhofer to extract **street axis points with elevation**.
+
+- **`output`**  
