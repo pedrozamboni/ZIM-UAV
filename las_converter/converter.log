@@ -1,0 +1,3 @@
+2026-01-22 14:11:28,950 - INFO - Configuration: {'input_file': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Maibach_pointcloud_highquality.las', 'output_file': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Maibach_pointcloud_highquality_1.2.las'}
+2026-01-22 14:11:31,627 - INFO - LAS file version: 1.2
+2026-01-22 14:11:31,627 - INFO - No conversion needed. File is already version 1.2 or lower.
