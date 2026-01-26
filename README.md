@@ -11,12 +11,12 @@ Install requirements.txt
 
 ## LINKS
 ### Trained machine learning models 
-Unzip and move to ml_models inside trained_model - https://drive.google.com/drive/folders/1xf2zbsAkCs0hcVg_DN4VSUq97cG_UQiT?usp=sharing
+*Unzip and move to ml_models inside trained_model* - https://drive.google.com/drive/folders/1xf2zbsAkCs0hcVg_DN4VSUq97cG_UQiT?usp=sharing
 
-Inputs
+### Inputs
 
-Processed output for Poppenhausen and Maibach
+### Processed output for Poppenhausen and Maibach
 
-Curb training data
+### Curb training data
 
 Tutorial - tutorial.pdf
