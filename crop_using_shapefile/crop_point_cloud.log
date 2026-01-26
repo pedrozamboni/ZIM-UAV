@@ -1,0 +1,72 @@
+2026-01-23 16:43:57,476 - INFO - Starting script.
+2026-01-23 16:43:57,477 - INFO - Configuration file loaded successfully.
+2026-01-23 16:43:57,477 - INFO - Configuration: {'shapefile_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/object_extractions_Poppenhausen/object_extractions/v3/street_pg.shp', 'polygon_type': ['street_paved', 'sidewalk'], 'point_cloud_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground.las', 'output_las': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las'}
+2026-01-23 16:50:05,781 - INFO - Shapefile processed and geometry prepared.
+2026-01-23 16:50:07,191 - INFO - Crop initialization
+2026-01-23 16:50:40,996 - INFO - Cropping completed successfully.
+2026-01-23 16:50:42,267 - INFO - Process finished
+2026-01-23 16:50:42,268 - INFO - Point cloud saved: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las
+2026-01-23 17:21:36,151 - INFO - Starting script.
+2026-01-23 17:21:36,152 - INFO - Configuration file loaded successfully.
+2026-01-23 17:21:36,152 - INFO - Configuration: {'shapefile_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/object_extractions_Poppenhausen/object_extractions/v3/street_pg.shp', 'polygon_type': ['street_paved', 'sidewalk'], 'point_cloud_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground.las', 'output_las': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street_0.4.las'}
+2026-01-23 17:25:08,925 - INFO - Shapefile processed and geometry prepared.
+2026-01-23 17:25:10,340 - INFO - Crop initialization
+2026-01-23 17:25:47,290 - INFO - Cropping completed successfully.
+2026-01-23 17:25:48,468 - INFO - Process finished
+2026-01-23 17:25:48,468 - INFO - Point cloud saved: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street_0.4.las
+2026-01-23 17:27:04,471 - INFO - Starting script.
+2026-01-23 17:27:04,472 - INFO - Configuration file loaded successfully.
+2026-01-23 17:27:04,472 - INFO - Configuration: {'shapefile_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/object_extractions_Poppenhausen/object_extractions/v3/street_pg.shp', 'polygon_type': ['street_paved', 'sidewalk'], 'point_cloud_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground.las', 'output_las': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las'}
+2026-01-23 17:29:46,359 - INFO - Shapefile processed and geometry prepared.
+2026-01-23 17:29:47,761 - INFO - Crop initialization
+2026-01-23 17:30:23,286 - INFO - Cropping completed successfully.
+2026-01-23 17:30:24,437 - INFO - Process finished
+2026-01-23 17:30:24,437 - INFO - Point cloud saved: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las
+2026-01-26 11:52:58,343 - INFO - Starting script.
+2026-01-26 11:52:58,360 - INFO - Configuration file loaded successfully.
+2026-01-26 11:52:58,360 - INFO - Configuration: {'shapefile_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/object_extractions_Poppenhausen/object_extractions/v3/street_pg.shp', 'polygon_type': ['street_paved', 'sidewalk'], 'point_cloud_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground.las', 'output_las': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street_03.las', 'buffer_distace': 0.3}
+2026-01-26 11:55:34,344 - INFO - Shapefile processed and geometry prepared.
+2026-01-26 11:55:50,705 - INFO - Crop initialization
+2026-01-26 11:56:23,841 - INFO - Cropping completed successfully.
+2026-01-26 11:56:24,924 - INFO - Process finished
+2026-01-26 11:56:24,925 - INFO - Point cloud saved: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street_03.las
+2026-01-26 11:56:55,546 - INFO - Starting script.
+2026-01-26 11:56:55,548 - INFO - Configuration file loaded successfully.
+2026-01-26 11:56:55,548 - INFO - Configuration: {'shapefile_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/object_extractions_Poppenhausen/object_extractions/v3/street_pg.shp', 'polygon_type': ['street_paved', 'sidewalk'], 'point_cloud_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground.las', 'output_las': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street_02.las', 'buffer_distance': 0.2}
+2026-01-26 11:58:56,531 - INFO - Shapefile processed and geometry prepared.
+2026-01-26 11:58:57,881 - INFO - Crop initialization
+2026-01-26 11:59:34,055 - INFO - Cropping completed successfully.
+2026-01-26 11:59:35,110 - INFO - Process finished
+2026-01-26 11:59:35,111 - INFO - Point cloud saved: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street_02.las
+2026-01-26 12:00:37,137 - INFO - Starting script.
+2026-01-26 12:00:37,139 - INFO - Configuration file loaded successfully.
+2026-01-26 12:00:37,139 - INFO - Configuration: {'shapefile_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/object_extractions_Poppenhausen/object_extractions/v3/street_pg.shp', 'polygon_type': ['street_paved', 'sidewalk'], 'point_cloud_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground.las', 'output_las': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'buffer_distance': 0.1}
+2026-01-26 12:01:52,129 - INFO - Shapefile processed and geometry prepared.
+2026-01-26 12:01:53,471 - INFO - Crop initialization
+2026-01-26 12:02:31,142 - INFO - Cropping completed successfully.
+2026-01-26 12:02:32,179 - INFO - Process finished
+2026-01-26 12:02:32,179 - INFO - Point cloud saved: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las
+2026-01-26 12:02:45,495 - INFO - Starting script.
+2026-01-26 12:02:45,497 - INFO - Configuration file loaded successfully.
+2026-01-26 12:02:45,497 - INFO - Configuration: {'shapefile_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/object_extractions_Maibach/object_extractions/v3/street_pg.shp', 'polygon_type': ['street_paved', 'sidewalk'], 'point_cloud_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_ground.las', 'output_las': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las', 'buffer_distance': 0.1}
+2026-01-26 12:03:33,587 - INFO - Shapefile processed and geometry prepared.
+2026-01-26 12:03:39,998 - INFO - Crop initialization
+2026-01-26 12:04:57,516 - INFO - Cropping completed successfully.
+2026-01-26 12:04:58,338 - INFO - Process finished
+2026-01-26 12:04:58,338 - INFO - Point cloud saved: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las
+2026-01-26 12:31:07,862 - INFO - Starting script.
+2026-01-26 12:31:07,863 - INFO - Configuration file loaded successfully.
+2026-01-26 12:31:07,863 - INFO - Configuration: {'shapefile_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/object_extractions_Maibach/object_extractions/v3/street_pg.shp', 'polygon_type': ['street_paved', 'sidewalk'], 'point_cloud_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_ground.las', 'output_las': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las', 'buffer_distance': 0.0}
+2026-01-26 12:31:09,980 - INFO - Shapefile processed and geometry prepared.
+2026-01-26 12:31:10,398 - INFO - Crop initialization
+2026-01-26 12:32:50,782 - INFO - Cropping completed successfully.
+2026-01-26 12:32:51,589 - INFO - Process finished
+2026-01-26 12:32:51,589 - INFO - Point cloud saved: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las
+2026-01-26 12:32:55,147 - INFO - Starting script.
+2026-01-26 12:32:55,148 - INFO - Configuration file loaded successfully.
+2026-01-26 12:32:55,148 - INFO - Configuration: {'shapefile_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/object_extractions_Poppenhausen/object_extractions/v3/street_pg.shp', 'polygon_type': ['street_paved', 'sidewalk'], 'point_cloud_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_ground.las', 'output_las': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las', 'buffer_distance': 0.0}
+2026-01-26 12:32:56,319 - INFO - Shapefile processed and geometry prepared.
+2026-01-26 12:32:57,661 - INFO - Crop initialization
+2026-01-26 12:33:40,186 - INFO - Cropping completed successfully.
+2026-01-26 12:33:41,215 - INFO - Process finished
+2026-01-26 12:33:41,215 - INFO - Point cloud saved: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las

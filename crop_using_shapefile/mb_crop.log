@@ -1,0 +1,8 @@
+2026-01-23 16:39:37,399 - INFO - Starting script.
+2026-01-23 16:39:37,400 - INFO - Configuration file loaded successfully.
+2026-01-23 16:39:37,400 - INFO - Configuration: {'shapefile_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/object_extractions_Maibach/object_extractions/v3/street_pg.shp', 'polygon_type': ['street_paved', 'sidewalk'], 'point_cloud_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_ground.las', 'output_las': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las'}
+2026-01-23 16:42:46,129 - INFO - Shapefile processed and geometry prepared.
+2026-01-23 16:42:46,269 - INFO - Crop initialization
+2026-01-23 16:43:38,111 - INFO - Cropping completed successfully.
+2026-01-23 16:43:39,101 - INFO - Process finished
+2026-01-23 16:43:39,101 - INFO - Point cloud saved: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las
