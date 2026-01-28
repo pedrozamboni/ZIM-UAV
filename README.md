@@ -1,11 +1,12 @@
 # ZIM-UAV
 # TO DO
-   - FIX WORKFLOW IMAGE - GROUND POINTS AS INPUT TO MESH.PY
    - CLEAN REQUIREMENTS.TXT
    - DOCKER CONTAINERS
+   - FINISH MANUAL/DOCUMENTATION
+   - RECORD VIDEOS TUTORIALS 
 
 ## README 
-### Requirements 
+### Requirements (SHOULD CHANGE AFTER DOCKER)
   - Ubuntu (22.04 or higher) or other ubuntu based linux distro  
   - 64 Gb of ram memory
   - 10 core cpu
