@@ -84,7 +84,23 @@ def main():
         logging.info(f"Features extracted with shape: {features.shape}")
         model = joblib.load(config['model_path'])
         logging.info(f"Model loaded from {config['model_path']}")
-        predictions = model.predict(features)
+        #predictions = model.predict(features)
+        predictions = model.predict_proba(features)
+        # Filter predictions to keep only class 1 with probability > 0.7
+        class_1_proba = predictions[:, 1]  # Get probability for class 1
+        high_confidence_mask = class_1_proba > config['probability_threshold']
+        predictions_filtered = (class_1_proba > config['probability_threshold']).astype(int)
+        
+        # Apply mask to features and predictions
+        features = features[high_confidence_mask]
+        predictions = predictions_filtered[high_confidence_mask]
+        pcd_filtered = pcd[valid_indices][high_confidence_mask]
+        
+        # Update valid_indices to reflect the filtering
+        valid_indices_original = np.where(valid_indices)[0]
+        valid_indices = np.zeros(len(pcd), dtype=bool)
+        valid_indices[valid_indices_original[high_confidence_mask]] = True
+        
         logging.info(f"Predictions made with shape: {predictions.shape}")
         
         
