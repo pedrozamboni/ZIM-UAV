@@ -29,7 +29,7 @@ https://drive.google.com/file/d/1ATJL4guH_aOd5gyDWZ-397BUKv2CleRS/view?usp=shari
 ### Tutorial
   - tutorial.pdf
     
-![Alt text](images/worfklow.PNG)
+![Alt text](images/workflow.PNG)
 
 ## Repository Structure
 
