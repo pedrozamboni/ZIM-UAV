@@ -2,10 +2,11 @@
 # TO DO
    - CLEAN REQUIREMENTS.TXT
    - CREATE CONFIG FOR FUSION SCRIPTS
-   - DOCKER CONTAINERS
    - FINISH MANUAL/DOCUMENTATION
    - RECORD VIDEOS TUTORIALS 
-
+# zim-docker branch
+   - docker version of the scripts
+     
 ## README 
 ### Requirements (SHOULD CHANGE AFTER DOCKER)
   - Ubuntu (22.04 or higher) or other ubuntu based linux distro  
