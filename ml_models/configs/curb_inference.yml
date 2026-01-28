@@ -1,5 +1,0 @@
-pcd_path: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_street.las'
-model_path: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl'
-output_path: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_curb/rf.las"
-crs: "EPSG:25832"
-saturation_filter: 0.2
