@@ -1,0 +1,18 @@
+input_path: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/mesh/poppenhausen_ground_final.las"
+
+headers:
+  - red
+  - green
+  - blue
+  - distance
+
+search_raidus: 0.125
+
+features_name:
+  - surface_variation
+  - sphericity
+  - verticality
+
+path_out: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/all_features/poppenhausen
+
+pointdensity: false

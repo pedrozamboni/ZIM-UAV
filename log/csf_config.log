@@ -1,0 +1,51 @@
+2026-01-28 16:03:19,828 - INFO - Starting script.
+2026-01-28 16:03:19,829 - INFO - Configuration: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Maibach_pointcloud_highquality_downsampled.las', 'cloth_resolution': 0.8, 'filename': 'maibach', 'max_interations': 250, 'path_out': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/output', 'class_threshold': 0.5, 'sloopsmooth': True}
+2026-01-28 16:03:19,829 - INFO - Starting CSF filtering on file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Maibach_pointcloud_highquality_downsampled.las
+2026-01-28 16:03:19,829 - INFO - Parameters: cloth_resolution=0.8, max_iterations=250, class_threshold=0.5
+2026-01-28 16:03:19,829 - ERROR - Error in CSF filtering: [Errno 2] No such file or directory: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Maibach_pointcloud_highquality_downsampled.las'
+2026-01-28 16:03:19,829 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Maibach_pointcloud_highquality_downsampled.las'
+2026-01-28 16:05:24,066 - INFO - Starting script.
+2026-01-28 16:05:24,068 - INFO - Configuration: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/inputs/Maibach_pointcloud_highquality_downsampled.las', 'cloth_resolution': 0.8, 'filename': 'maibach', 'max_interations': 250, 'path_out': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/output', 'class_threshold': 0.5, 'sloopsmooth': True}
+2026-01-28 16:05:24,068 - INFO - Starting CSF filtering on file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/inputs/Maibach_pointcloud_highquality_downsampled.las
+2026-01-28 16:05:24,068 - INFO - Parameters: cloth_resolution=0.8, max_iterations=250, class_threshold=0.5
+2026-01-28 16:05:24,068 - ERROR - Error in CSF filtering: [Errno 2] No such file or directory: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/inputs/Maibach_pointcloud_highquality_downsampled.las'
+2026-01-28 16:05:24,068 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/inputs/Maibach_pointcloud_highquality_downsampled.las'
+2026-01-28 16:06:00,421 - INFO - Starting script.
+2026-01-28 16:06:00,422 - INFO - Configuration: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/inputs/Maibach_pointcloud_highquality_downsampled.las', 'cloth_resolution': 0.8, 'filename': 'maibach', 'max_interations': 250, 'path_out': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/output', 'class_threshold': 0.5, 'sloopsmooth': True}
+2026-01-28 16:06:00,422 - INFO - Starting CSF filtering on file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/inputs/Maibach_pointcloud_highquality_downsampled.las
+2026-01-28 16:06:00,422 - INFO - Parameters: cloth_resolution=0.8, max_iterations=250, class_threshold=0.5
+2026-01-28 16:06:00,422 - ERROR - Error in CSF filtering: [Errno 2] No such file or directory: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/inputs/Maibach_pointcloud_highquality_downsampled.las'
+2026-01-28 16:06:00,422 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/inputs/Maibach_pointcloud_highquality_downsampled.las'
+2026-01-28 16:06:05,327 - INFO - Starting script.
+2026-01-28 16:06:05,328 - INFO - Configuration: {'pcd_path': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/inputs/Maibach_pointcloud_highquality_downsampled.las', 'cloth_resolution': 0.8, 'filename': 'maibach', 'max_interations': 250, 'path_out': '/home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/output', 'class_threshold': 0.5, 'sloopsmooth': True}
+2026-01-28 16:06:05,328 - INFO - Starting CSF filtering on file: /home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/inputs/Maibach_pointcloud_highquality_downsampled.las
+2026-01-28 16:06:05,328 - INFO - Parameters: cloth_resolution=0.8, max_iterations=250, class_threshold=0.5
+2026-01-28 16:06:05,328 - ERROR - Error in CSF filtering: [Errno 2] No such file or directory: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/inputs/Maibach_pointcloud_highquality_downsampled.las'
+2026-01-28 16:06:05,328 - ERROR - An error occurred: [Errno 2] No such file or directory: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results_docker/inputs/Maibach_pointcloud_highquality_downsampled.las'
+2026-01-28 16:06:22,186 - INFO - Starting script.
+2026-01-28 16:06:22,187 - INFO - Configuration: {'pcd_path': './inputs/Maibach_pointcloud_highquality_downsampled.las', 'cloth_resolution': 0.8, 'filename': 'maibach', 'max_interations': 250, 'path_out': './output', 'class_threshold': 0.5, 'sloopsmooth': True}
+2026-01-28 16:06:22,187 - INFO - Starting CSF filtering on file: ./inputs/Maibach_pointcloud_highquality_downsampled.las
+2026-01-28 16:06:22,187 - INFO - Parameters: cloth_resolution=0.8, max_iterations=250, class_threshold=0.5
+2026-01-28 16:06:23,363 - INFO - Total points to process: 64850511
+2026-01-28 16:07:56,357 - INFO - Ground points: 24627069, Non-ground points: 40223442
+2026-01-28 16:08:01,510 - INFO - Ground points saved to: ./output/maibach_ground.las
+2026-01-28 16:08:10,118 - INFO - Non-ground points saved to: ./output/maibach_non_ground.las
+2026-01-28 16:08:10,350 - INFO - CSF filtering completed successfully.
+2026-01-28 16:08:10,350 - INFO - Process finished
+2026-01-28 16:08:10,350 - INFO - Point cloud saved: ./output
+2026-01-28 16:20:57,336 - INFO - Starting script.
+2026-01-28 16:20:57,337 - INFO - Configuration: {'pcd_path': './inputs/Maibach_pointcloud_highquality_downsampled.las', 'cloth_resolution': 0.8, 'filename': 'maibach', 'max_interations': 250, 'path_out': './output', 'class_threshold': 0.5, 'sloopsmooth': True}
+2026-01-28 16:20:57,337 - INFO - Starting CSF filtering on file: ./inputs/Maibach_pointcloud_highquality_downsampled.las
+2026-01-28 16:20:57,337 - INFO - Parameters: cloth_resolution=0.8, max_iterations=250, class_threshold=0.5
+2026-01-28 16:20:58,554 - INFO - Total points to process: 64850511
+2026-01-28 16:23:56,757 - INFO - Starting script.
+2026-01-28 16:23:56,766 - INFO - Configuration: {'pcd_path': './inputs/Maibach_pointcloud_highquality_downsampled.las', 'cloth_resolution': 0.8, 'filename': 'maibach', 'max_interations': 250, 'path_out': './output', 'class_threshold': 0.5, 'sloopsmooth': True}
+2026-01-28 16:23:56,766 - INFO - Starting CSF filtering on file: ./inputs/Maibach_pointcloud_highquality_downsampled.las
+2026-01-28 16:23:56,766 - INFO - Parameters: cloth_resolution=0.8, max_iterations=250, class_threshold=0.5
+2026-01-28 16:23:57,982 - INFO - Total points to process: 64850511
+2026-01-28 16:25:29,665 - INFO - Ground points: 24622609, Non-ground points: 40227902
+2026-01-28 16:25:34,727 - INFO - Ground points saved to: ./output/maibach_ground.las
+2026-01-28 16:25:43,199 - INFO - Non-ground points saved to: ./output/maibach_non_ground.las
+2026-01-28 16:25:43,435 - INFO - CSF filtering completed successfully.
+2026-01-28 16:25:43,435 - INFO - Process finished
+2026-01-28 16:25:43,435 - INFO - Point cloud saved: ./output

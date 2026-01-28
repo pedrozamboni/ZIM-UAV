@@ -1,0 +1,8 @@
+point_cloud_1_path: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/curb_training_data/poppenhausen/all2.las'
+point_cloud_2_path: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/curb_training_data/maibach/all2.las'
+output_output: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/curb_training_data/'
+#output_pcd1_path_output: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Poppenhausen_supsampled_random_1.2.las'
+#output_pcd2_path_output: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Poppenhausen_supsampled_random_1.2.las'
+
+
+

@@ -1,0 +1,4 @@
+model_path: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/rf_3c_pkl
+input_las_path: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las
+output_dir: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/down/
+voxel_downsample: 0.05
