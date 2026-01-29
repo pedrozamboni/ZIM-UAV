@@ -1,3 +1,0 @@
-las_path: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_ground.las"  # Replace with your LAS file path
-output_path: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_ground_raw.tif"  # Output mesh file
-output_path_final: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_ground_final.tif"  # Output final mesh file

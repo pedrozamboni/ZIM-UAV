@@ -1,6 +1,6 @@
-pcd_path: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/poppenhausen_street.las'
-model_path: '/home/pedro/Documents/Documents/projects/pointcloud/zim_results/ml_models/trained_model/curb_rf_final_26.pkl'
-output_path: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/poppenhausen_curb/rf_06.las"
+pcd_path: './output/maibach_street.las'
+model_path: './models/curb_rf_final_26.pkl'
+output_path: "./output/maibach_curb_inference.las"
 crs: "EPSG:25832"
 saturation_filter: 0.15
 probability_threshold: 0.6

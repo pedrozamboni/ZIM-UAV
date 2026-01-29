@@ -1,0 +1,15 @@
+2026-01-29 16:57:34,819 - INFO - Reading configuration file
+2026-01-29 16:57:34,819 - INFO - Starting merge process from folder: ./output/segmentation/
+2026-01-29 16:57:34,819 - INFO - Found 2 LAS files to merge
+2026-01-29 16:57:34,819 - INFO - Reading first file: output/segmentation/inf_chunk2_1.las
+2026-01-29 16:57:34,933 - INFO - Processing file: output/segmentation/inf_chunk2_1.las
+2026-01-29 16:57:35,103 - INFO - Processing file: output/segmentation/inf_chunk2_0.las
+2026-01-29 16:57:35,481 - INFO - Total points to merge: 14660913
+2026-01-29 16:57:35,481 - INFO - Merging point coordinates...
+2026-01-29 16:57:36,234 - INFO - Merging RGB values...
+2026-01-29 16:57:36,582 - INFO - Writing merged file to: ./output/segmentation/all.las
+2026-01-29 16:57:37,208 - INFO - Merge process completed successfully
+2026-01-29 16:57:37,208 - INFO - Deleting batch files...
+2026-01-29 16:57:37,237 - INFO - Deleted file: output/segmentation/inf_chunk2_1.las
+2026-01-29 16:57:37,291 - INFO - Deleted file: output/segmentation/inf_chunk2_0.las
+2026-01-29 16:57:37,291 - INFO - Batch file deletion completed

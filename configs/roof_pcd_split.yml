@@ -1,1 +1,2 @@
-input_las: /home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/all.las
+input_las: ./output/segmentation/all.las
+output_las: ./output/roof_maibach.las

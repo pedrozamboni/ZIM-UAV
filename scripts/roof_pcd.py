@@ -57,7 +57,7 @@ def main():
     logging.info(f"Class 2 points (roof): {class_2_points.shape[0]}")
 
     # Create output LAS file for class 2 (roof)
-    output_las_path = config.get('output_las', 'roof_output.las')
+    output_las_path = config['output_las']
     # Generate output path based on input path
     input_dir = os.path.dirname(input_las_path)
     input_filename = os.path.splitext(os.path.basename(input_las_path))[0]

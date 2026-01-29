@@ -1,20 +1,20 @@
 ## inputs
-las_filename: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/segmenatation_results/maibach_rf_3c/all_roof.las"
-roof_shapefile: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/object_extractions_Maibach/mb_roof_dennis.shp"
+las_filename: "./output/segmentation/all_roof.las"
+roof_shapefile: "./input/object_extractions_Maibach/mb_roof_dennis.shp"
 
 ### filter roof per number of points
-min_points_per_roof: 2000
+min_points_per_roof: 1500
 
 ### roof extraction parameters
 ext_segment_threshold: 0.2
-ext_segment_ransac_n: 5
+ext_segment_ransac_n: 6
 ext_segment_num_iterations: 10000
-ext_segment_min_points: 2000
-ext_filter_min_roof_points: 2000
+ext_segment_min_points: 1500
+ext_filter_min_roof_points: 1500
 ext_cluster_eps: 0.5
 ext_cluster_min_samples: 50
 ext_filter_polygon_min_area: 1.0
 ext_filter_polygon_min_points: 500
 
 ### outputs
-output_path: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_roofs.shp"
+output_path: "./output/maibach_roofs.shp"

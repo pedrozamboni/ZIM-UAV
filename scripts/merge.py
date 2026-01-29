@@ -46,7 +46,7 @@ def read_config(file_path: str) -> dict:
         except yaml.YAMLError as exc:
             logging.error(exc)
 
-def merge_las_files(input_folder, output_file):
+def merge_las_files(input_folder, output_file, delete=False):
     logging.info(f"Starting merge process from folder: {input_folder}")
     
     # Get all .las files in the input folder
@@ -119,7 +119,18 @@ def merge_las_files(input_folder, output_file):
     logging.info(f"Writing merged file to: {output_file}")
     merged_las.write(output_file)
     logging.info("Merge process completed successfully")
-
+    
+    # Delete batch files if requested
+    if delete:
+        logging.info("Deleting batch files...")
+        for las_path in las_files:
+            try:
+                os.remove(las_path)
+                logging.info(f"Deleted file: {las_path}")
+            except Exception as e:
+                logging.error(f"Failed to delete file {las_path}: {e}")
+        logging.info("Batch file deletion completed")
+    
 def main():
     args = parse_args()
     logging.info("Reading configuration file")
@@ -131,7 +142,7 @@ def main():
         logging.error("Input folder or output file not specified in config")
         return
         
-    merge_las_files(input_folder, output_file)
+    merge_las_files(input_folder, output_file, delete=config['delete_batch_files'])
 
 if __name__ == "__main__":
     main()

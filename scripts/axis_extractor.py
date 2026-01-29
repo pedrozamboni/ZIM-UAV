@@ -293,7 +293,7 @@ def main():
         logging.info(f"Points after smoothing: {len(smoothed_elevations)}")
 
         logging.info("Saving results to file")
-        points_with_elevation['elevation_smoothed'] = smoothed_elevations
+        points_with_elevation['high_smoothed'] = smoothed_elevations
         points_with_elevation.to_file(f"{output_dir}/{config['filename']}.shp")
         logging.info("Processing completed")
 

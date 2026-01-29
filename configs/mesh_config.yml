@@ -1,0 +1,3 @@
+las_path: "./output/maibach_ground.las"  # Replace with your LAS file path
+output_path: "./output/maibach_ground_raw.tif"  # Output mesh file
+output_path_final: "./output/maibach_ground_final.tif"  # Output final mesh file

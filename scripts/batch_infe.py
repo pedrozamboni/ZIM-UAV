@@ -122,6 +122,16 @@ def main():
         model = joblib.load(config['model_path'])
         logging.info('Model loaded successfully')
 
+        # Check if output directory exists, create if not
+        if not os.path.exists(config['output_dir']):
+            os.makedirs(config['output_dir'])
+            logging.info(f"Created output directory: {config['output_dir']}")
+        else:
+            logging.info(f"Output directory exists: {config['output_dir']}")
+            
+        model = joblib.load(config['model_path'])
+        logging.info('Model loaded successfully')
+
         logging.info(f"Processing input file: {config['input_las_path']}")
         with laspy.open(config['input_las_path']) as input_las:
             input_header = input_las.header

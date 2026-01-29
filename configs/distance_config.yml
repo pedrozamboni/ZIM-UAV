@@ -1,3 +1,3 @@
-input_las: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/inputs/Maibach_pointcloud_highquality_downsampled.las"  # Replace with your LAS file path
-input_dem: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_ground_final.tif"  # Output mesh file
-output_las: "/home/pedro/Documents/Documents/projects/pointcloud/zim_results/output/maibach_hag.las"  # Output mesh file
+input_las: "./input/Maibach_pointcloud_highquality_downsampled.las"  # Replace with your LAS file path
+input_dem: "./output/maibach_ground_final.tif"  # Output mesh file
+output_las: "./output/maibach_hag.las"  # Output mesh file

@@ -1,7 +1,7 @@
 #### --- Separate ground to non ground points using CSF filter---####
 
 # path to the point cloud file
-pcd_path: './inputs/Maibach_pointcloud_highquality_downsampled.las'
+pcd_path: './input/Maibach_pointcloud_highquality_downsampled.las'
 
 # cloth_resolution resolution
 cloth_resolution: 0.8

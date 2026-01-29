@@ -24,7 +24,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('roof_extractor_v2.log'),
+        logging.FileHandler(get_log_filename(sys.argv[1])),
         logging.StreamHandler()
     ]
 )
