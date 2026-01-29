@@ -1,0 +1,11 @@
+2026-01-29 18:42:35,612 - INFO - Configuration: {'input_file': './input/Poppenhausen_supsampled_random.las'}
+2026-01-29 18:43:00,675 - INFO - Configuration: {'input_file': './input/Poppenhausen_supsampled_random.las'}
+2026-01-29 18:43:08,509 - INFO - Configuration: {'input_file': './input/Poppenhausen_supsampled_random.las'}
+2026-01-29 18:43:10,608 - INFO - LAS file version: 1.4
+2026-01-29 18:43:10,608 - INFO - Converting to version 1.2...
+2026-01-29 18:43:25,004 - INFO - Original file renamed to: ./input/Poppenhausen_supsampled_random_old.las
+2026-01-29 18:43:54,615 - INFO - Configuration: {'input_file': './input/Poppenhausen_supsampled_random.las'}
+2026-01-29 18:43:56,712 - INFO - LAS file version: 1.4
+2026-01-29 18:43:56,712 - INFO - Converting to version 1.2...
+2026-01-29 18:44:11,300 - INFO - Original file renamed to: ./input/Poppenhausen_supsampled_random_v14_not_use.las
+2026-01-29 18:44:15,397 - INFO - Converted file saved as: ./input/Poppenhausen_supsampled_random.las

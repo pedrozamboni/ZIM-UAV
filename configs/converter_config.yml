@@ -1,5 +1,5 @@
 input_file: './input/Maibach_pointcloud_highquality_downsampled.las'
-output_file: './input/Maibach_pointcloud_highquality_downsampled_1.2.las'
+#output_file: './input/Maibach_pointcloud_highquality_downsampled_1.2.las'
 
 
 

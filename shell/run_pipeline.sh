@@ -4,9 +4,28 @@ echo "🚀 Running end-to-end pipeline..."
 # Start container
 docker-compose up -d
 
+echo ""
+echo "📐 Step 1/7: Running converter.py..."
+docker-compose exec zimuav python ./scripts/converter.py "${1:-./configs/converter_config.yml}"
+
+if [ $? -ne 0 ]; then
+    echo "❌ converter.py failed!"
+    docker-compose down
+    exit 1
+fi
+
+echo "✅ converter.py completed!"
+
+# Wait 5 seconds with countdown
+echo ""
+for i in 5 4 3 2 1; do
+    echo "⏳ Waiting $i seconds..."
+    sleep 1
+done
+
 # Run mesh.py
 echo ""
-echo "📐 Step 1/6: Running csf.py..."
+echo "📐 Step 2/7: Running csf.py..."
 docker-compose exec zimuav python ./scripts/csf.py "${1:-./configs/csf_config.yml}"
 
 if [ $? -ne 0 ]; then
@@ -25,7 +44,7 @@ for i in 5 4 3 2 1; do
 done
 
 echo ""
-echo "📏 Step 2/6: Running mesh.py and distance.py..."
+echo "📏 Step 3/7: Running mesh.py and distance.py..."
 
 docker-compose exec zimuav python ./scripts/mesh.py "${1:-./configs/mesh_config.yml}"
 
@@ -57,7 +76,7 @@ echo "✅ distance.py completed!"
 
 
 echo ""
-echo "📏 Step 3/6: Running batch_infe.py and merge.py"
+echo "📏 Step 4/7: Running batch_infe.py and merge.py"
 docker-compose exec zimuav python ./scripts/batch_infe.py "${1:-./configs/batch_infe_config.yml}"
 
 if [ $? -ne 0 ]; then
@@ -87,7 +106,7 @@ fi
 echo "✅ merge.py completed!"
 
 echo ""
-echo "📏 Step 4/6: Running crop_point_cloud.py and curb_inference.py..."
+echo "📏 Step 5/7: Running crop_point_cloud.py and curb_inference.py..."
 
 docker-compose exec zimuav python ./scripts/crop_point_cloud.py "${1:-./configs/crop_point_cloud_config.yml}"
 
@@ -119,7 +138,7 @@ fi
 echo "✅ curb_inference.py completed!"
 
 echo ""
-echo "📏 Step 5/6: Running axis_extractor.py..."
+echo "📏 Step 6/7: Running axis_extractor.py..."
 echo ""
 docker-compose exec zimuav python ./scripts/axis_extractor.py "${2:-./configs/axis_config.yml}"
 
@@ -131,7 +150,7 @@ fi
 
 echo "✅ axis_extractor.py completed!"
 
-echo "📏 Step 6/6: Running roof_pcd.py and roof_extractor.py..."
+echo "📏 Step 7/7: Running roof_pcd.py and roof_extractor.py..."
 
 docker-compose exec zimuav python ./scripts/roof_pcd.py "${1:-./configs/roof_pcd_split.yml}"
 
@@ -141,7 +160,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-echo "✅ split.py completed!"
+echo "✅ roof_pcd.py completed!"
 
 # Wait 5 seconds with countdown
 echo ""

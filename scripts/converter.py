@@ -45,7 +45,7 @@ def read_config(file_path: str) -> dict:
         except yaml.YAMLError as exc:
             logging.error(exc)
 
-def convert_las_to_v12(input_file, output_file=None):
+def convert_las_to_v12(input_file):
     try:
         # Open the input LAS file
         las_data = laspy.read(input_file)
@@ -76,7 +76,17 @@ def convert_las_to_v12(input_file, output_file=None):
                 if hasattr(las_data, dim):
                     setattr(new_las, dim, getattr(las_data, dim))
                         # Save to output file
-            output_path = output_file if output_file else input_file.replace('.las', '_v1.2.las')
+            #output_path = output_file if output_file else input_file.replace('.las', '_v1.2.las')
+            #new_las.write(output_path)
+
+            #logging.info(f"Converted file saved as: {output_path}")
+            # Rename original file to _old.las
+            old_file_path = input_file.replace('.las', '_v14_not_use.las')
+            os.rename(input_file, old_file_path)
+            logging.info(f"Original file renamed to: {old_file_path}")
+            
+            # Save converted file with original name
+            output_path =  input_file
             new_las.write(output_path)
             logging.info(f"Converted file saved as: {output_path}")
         else:
@@ -94,4 +104,4 @@ if __name__ == "__main__":
     # parser = argparse.ArgumentParser(description='Convert LAS file to version 1.2')
     # parser.add_argument('input_file', help='Input LAS file path')
     # parser.add_argument('--output', help='Output file path (optional)')
-    convert_las_to_v12(config['input_file'], config['output_file'])
+    convert_las_to_v12(config['input_file'])
