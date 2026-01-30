@@ -1,7 +1,7 @@
-2026-01-29 17:05:14,802 - INFO - Reading LAS file from ./output/segmentation/all.las
-2026-01-29 17:05:15,161 - INFO - Reading points from LAS file
-2026-01-29 17:05:15,495 - INFO - Points read with shape: (14660913, 7)
-2026-01-29 17:05:15,667 - INFO - Class 1 points: 1931989
-2026-01-29 17:05:15,667 - INFO - Class 2 points (roof): 3429007
-2026-01-29 17:05:15,667 - INFO - Writing roof points (class 2) to ./output/segmentation/all_roof.las
-2026-01-29 17:05:16,104 - INFO - Successfully saved roof points to ./output/segmentation/all_roof.las
+2026-01-29 19:29:38,580 - INFO - Reading LAS file from ./output/segmentation/all.las
+2026-01-29 19:29:38,954 - INFO - Reading points from LAS file
+2026-01-29 19:29:39,292 - INFO - Points read with shape: (15765103, 7)
+2026-01-29 19:29:39,473 - INFO - Class 1 points: 1974160
+2026-01-29 19:29:39,473 - INFO - Class 2 points (roof): 3687367
+2026-01-29 19:29:39,473 - INFO - Writing roof points (class 2) to ./output/segmentation/all_roof.las
+2026-01-29 19:29:39,927 - INFO - Successfully saved roof points to ./output/segmentation/all_roof.las

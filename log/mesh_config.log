@@ -1,12 +1,12 @@
-2026-01-29 16:14:21,861 - INFO - Starting script.
-2026-01-29 16:14:21,861 - INFO - Configuration: {'las_path': './output/maibach_ground.las', 'output_path': './output/maibach_ground_raw.tif', 'output_path_final': './output/maibach_ground_final.tif'}
-2026-01-29 16:14:21,861 - INFO - Starting mesh generation from ./output/maibach_ground.las
-2026-01-29 16:14:21,861 - INFO - Executing PDAL pipeline...
-2026-01-29 16:14:55,974 - INFO - Reading raw mesh...
-2026-01-29 16:14:55,986 - INFO - Raw mesh shape: (148, 538)
-2026-01-29 16:14:55,986 - INFO - Filling nodata values...
-2026-01-29 16:14:55,989 - INFO - Saving final mesh to ./output/maibach_ground_final.tif
-2026-01-29 16:14:55,991 - INFO - Mesh generation complete
-2026-01-29 16:14:56,001 - INFO - DEM generation complete
-2026-01-29 16:14:56,001 - INFO - Process finished
-2026-01-29 16:14:56,001 - INFO - Mesh saved: ./output/maibach_ground_final.tif
+2026-01-29 18:23:06,291 - INFO - Starting script.
+2026-01-29 18:23:06,292 - INFO - Configuration: {'las_path': './output/maibach_ground.las', 'output_path': './output/maibach_ground_raw.tif', 'output_path_final': './output/maibach_ground_final.tif'}
+2026-01-29 18:23:06,292 - INFO - Starting mesh generation from ./output/maibach_ground.las
+2026-01-29 18:23:06,292 - INFO - Executing PDAL pipeline...
+2026-01-29 18:24:05,151 - INFO - Reading raw mesh...
+2026-01-29 18:24:05,168 - INFO - Raw mesh shape: (148, 538)
+2026-01-29 18:24:05,168 - INFO - Filling nodata values...
+2026-01-29 18:24:05,171 - INFO - Saving final mesh to ./output/maibach_ground_final.tif
+2026-01-29 18:24:05,173 - INFO - Mesh generation complete
+2026-01-29 18:24:05,193 - INFO - DEM generation complete
+2026-01-29 18:24:05,194 - INFO - Process finished
+2026-01-29 18:24:05,194 - INFO - Mesh saved: ./output/maibach_ground_final.tif

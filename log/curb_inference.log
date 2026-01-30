@@ -1,19 +1,19 @@
-2026-01-29 16:59:28,230 - INFO - Starting main execution
-2026-01-29 16:59:28,230 - INFO - Parsing configuration file
-2026-01-29 16:59:28,231 - INFO - Configuration loaded: {'pcd_path': './output/maibach_street.las', 'model_path': './models/curb_rf_final_26.pkl', 'output_path': './output/maibach_curb_inference.las', 'crs': 'EPSG:25832', 'saturation_filter': 0.15, 'probability_threshold': 0.6}
-2026-01-29 16:59:28,410 - INFO - Point cloud loaded with shape: (3700790, 6)
-2026-01-29 16:59:28,410 - INFO - Extracting features with radius: 0.2
-2026-01-29 17:00:26,894 - INFO - Extracting features with radius: 0.3
-2026-01-29 17:01:27,099 - INFO - Extracting features with radius: 0.5
-2026-01-29 17:02:30,603 - INFO - Extracting features with radius: 0.7
-2026-01-29 17:03:38,424 - INFO - Features extracted with shape: (3700642, 34)
-2026-01-29 17:03:39,018 - INFO - Model loaded from ./models/curb_rf_final_26.pkl
-2026-01-29 17:03:43,169 - INFO - Predictions made with shape: (23613,)
-2026-01-29 17:03:43,170 - INFO - Filtered predictions shape: (23613,)
-2026-01-29 17:03:43,170 - INFO - Writing results to ./output/maibach_curb_inference.las
-2026-01-29 17:03:43,196 - INFO - Filtered 23613 points with classification 1
-2026-01-29 17:03:43,197 - INFO - After saturation filter: 21018 points remaining
-2026-01-29 17:03:43,205 - INFO - Downsampled to 675 points
-2026-01-29 17:03:43,206 - INFO - Saved curb points to ./output/maibach_curb_inference_curb_class1.las
-2026-01-29 17:03:43,238 - INFO - Created 675 records
-2026-01-29 17:03:43,238 - INFO - Saved shapefile to ./output/maibach_curb_inference_curb_class1.shp
+2026-01-29 19:17:59,463 - INFO - Starting main execution
+2026-01-29 19:17:59,463 - INFO - Parsing configuration file
+2026-01-29 19:17:59,464 - INFO - Configuration loaded: {'pcd_path': './output/maibach_street.las', 'model_path': './models/curb_rf_final_26.pkl', 'output_path': './output/maibach_curb_inference.las', 'crs': 'EPSG:25832', 'saturation_filter': 0.15, 'probability_threshold': 0.6}
+2026-01-29 19:17:59,856 - INFO - Point cloud loaded with shape: (8783786, 6)
+2026-01-29 19:17:59,856 - INFO - Extracting features with radius: 0.2
+2026-01-29 19:20:23,565 - INFO - Extracting features with radius: 0.3
+2026-01-29 19:22:53,914 - INFO - Extracting features with radius: 0.5
+2026-01-29 19:25:19,033 - INFO - Extracting features with radius: 0.7
+2026-01-29 19:27:57,253 - INFO - Features extracted with shape: (8774015, 34)
+2026-01-29 19:27:57,872 - INFO - Model loaded from ./models/curb_rf_final_26.pkl
+2026-01-29 19:28:05,943 - INFO - Predictions made with shape: (73534,)
+2026-01-29 19:28:05,943 - INFO - Filtered predictions shape: (73534,)
+2026-01-29 19:28:05,943 - INFO - Writing results to ./output/maibach_curb_inference.las
+2026-01-29 19:28:06,005 - INFO - Filtered 73534 points with classification 1
+2026-01-29 19:28:06,008 - INFO - After saturation filter: 63339 points remaining
+2026-01-29 19:28:06,033 - INFO - Downsampled to 831 points
+2026-01-29 19:28:06,034 - INFO - Saved curb points to ./output/maibach_curb_inference_curb_class1.las
+2026-01-29 19:28:06,072 - INFO - Created 831 records
+2026-01-29 19:28:06,072 - INFO - Saved shapefile to ./output/maibach_curb_inference_curb_class1.shp

@@ -1,91 +1,93 @@
-2026-01-29 16:15:22,597 - INFO - Starting script.
-2026-01-29 16:15:22,597 - INFO - Configuration: {'model_path': './models/rf_3c_pkl', 'input_las_path': './output/maibach_hag.las', 'output_dir': './output/segmentation/', 'voxel_downsample': 0.1}
-2026-01-29 16:15:22,597 - INFO - Loading model from ./models/rf_3c_pkl
-2026-01-29 16:15:23,749 - INFO - Model loaded successfully
-2026-01-29 16:15:23,749 - INFO - Processing input file: ./output/maibach_hag.las
-2026-01-29 16:15:23,750 - INFO - Total points in input file: 64773871
-2026-01-29 16:15:23,750 - INFO - Reading points from LAS file
-2026-01-29 16:15:26,557 - INFO - Points read with shape: (64773871, 7)
-2026-01-29 16:15:30,845 - INFO - Distance stats - max: 116.40254211425781, min: 0.0, mean: 4.085855760347173
-2026-01-29 16:15:30,845 - INFO - Applying voxel downsampling
-2026-01-29 16:18:05,336 - INFO - Downsampled point cloud shape: (14709849, 7)
-2026-01-29 16:18:06,338 - INFO - Distance stats - max: 116.40254211425781, min: 0.0, mean: 4.0549058545469
-2026-01-29 16:18:06,541 - INFO - Sorting points by coordinates
-2026-01-29 16:18:12,502 - INFO - Processing 2 chunks of 10000000 points each
-2026-01-29 16:18:12,502 - INFO - Processing chunk 1/2, points 0 to 10000000
-2026-01-29 16:18:12,502 - INFO - Processing RGB array of shape (10000000, 3)
-2026-01-29 16:18:14,357 - INFO - Computing features for radius 0.125
-2026-01-29 16:18:14,357 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:20:46,960 - INFO - Features computed with shape: (10000000, 3)
-2026-01-29 16:20:46,960 - INFO - Features computed for radius 0.125 in 152.60 seconds
-2026-01-29 16:20:47,018 - INFO - Computing features for radius 0.25
-2026-01-29 16:20:47,018 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:23:23,227 - INFO - Features computed with shape: (10000000, 3)
-2026-01-29 16:23:23,228 - INFO - Features computed for radius 0.25 in 156.21 seconds
-2026-01-29 16:23:23,283 - INFO - Computing features for radius 0.5
-2026-01-29 16:23:23,283 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:26:02,607 - INFO - Features computed with shape: (10000000, 3)
-2026-01-29 16:26:02,607 - INFO - Features computed for radius 0.5 in 159.32 seconds
-2026-01-29 16:26:02,662 - INFO - Computing features for radius 0.75
-2026-01-29 16:26:02,662 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:28:47,227 - INFO - Features computed with shape: (10000000, 3)
-2026-01-29 16:28:47,227 - INFO - Features computed for radius 0.75 in 164.56 seconds
-2026-01-29 16:28:47,283 - INFO - Computing features for radius 1
-2026-01-29 16:28:47,284 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:31:36,618 - INFO - Features computed with shape: (10000000, 3)
-2026-01-29 16:31:36,618 - INFO - Features computed for radius 1 in 169.33 seconds
-2026-01-29 16:31:36,677 - INFO - Computing features for radius 2
-2026-01-29 16:31:36,677 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:34:35,326 - INFO - Features computed with shape: (10000000, 3)
-2026-01-29 16:34:35,326 - INFO - Features computed for radius 2 in 178.65 seconds
-2026-01-29 16:34:35,382 - INFO - Computing features for radius 3
-2026-01-29 16:34:35,382 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:37:23,350 - INFO - Features computed with shape: (10000000, 3)
-2026-01-29 16:37:23,350 - INFO - Features computed for radius 3 in 167.97 seconds
-2026-01-29 16:37:23,401 - INFO - Computing features for radius 5
-2026-01-29 16:37:23,401 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:44:58,356 - INFO - Features computed with shape: (10000000, 3)
-2026-01-29 16:44:58,356 - INFO - Features computed for radius 5 in 454.95 seconds
-2026-01-29 16:45:00,416 - INFO - Feature matrix shape: (9973656, 31)
-2026-01-29 16:45:00,416 - INFO - Performing prediction
-2026-01-29 16:45:14,929 - INFO - Writing results to ./output/segmentation/inf_chunk2_0.las
-2026-01-29 16:45:16,132 - INFO - Completed processing chunk 0
-2026-01-29 16:45:16,132 - INFO - Processing chunk 2/2, points 10000000 to 14709849
-2026-01-29 16:45:16,132 - INFO - Processing RGB array of shape (4709849, 3)
-2026-01-29 16:45:16,974 - INFO - Computing features for radius 0.125
-2026-01-29 16:45:16,975 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:46:29,846 - INFO - Features computed with shape: (4709849, 3)
-2026-01-29 16:46:29,846 - INFO - Features computed for radius 0.125 in 72.87 seconds
-2026-01-29 16:46:29,898 - INFO - Computing features for radius 0.25
-2026-01-29 16:46:29,898 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:47:43,306 - INFO - Features computed with shape: (4709849, 3)
-2026-01-29 16:47:43,306 - INFO - Features computed for radius 0.25 in 73.41 seconds
-2026-01-29 16:47:43,362 - INFO - Computing features for radius 0.5
-2026-01-29 16:47:43,363 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:48:58,158 - INFO - Features computed with shape: (4709849, 3)
-2026-01-29 16:48:58,158 - INFO - Features computed for radius 0.5 in 74.80 seconds
-2026-01-29 16:48:58,214 - INFO - Computing features for radius 0.75
-2026-01-29 16:48:58,214 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:50:15,301 - INFO - Features computed with shape: (4709849, 3)
-2026-01-29 16:50:15,301 - INFO - Features computed for radius 0.75 in 77.09 seconds
-2026-01-29 16:50:15,355 - INFO - Computing features for radius 1
-2026-01-29 16:50:15,355 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:51:34,259 - INFO - Features computed with shape: (4709849, 3)
-2026-01-29 16:51:34,259 - INFO - Features computed for radius 1 in 78.90 seconds
-2026-01-29 16:51:34,312 - INFO - Computing features for radius 2
-2026-01-29 16:51:34,312 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:53:00,684 - INFO - Features computed with shape: (4709849, 3)
-2026-01-29 16:53:00,684 - INFO - Features computed for radius 2 in 86.37 seconds
-2026-01-29 16:53:00,738 - INFO - Computing features for radius 3
-2026-01-29 16:53:00,738 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:54:14,585 - INFO - Features computed with shape: (4709849, 3)
-2026-01-29 16:54:14,586 - INFO - Features computed for radius 3 in 73.85 seconds
-2026-01-29 16:54:14,642 - INFO - Computing features for radius 5
-2026-01-29 16:54:14,642 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
-2026-01-29 16:57:20,099 - INFO - Features computed with shape: (4709849, 3)
-2026-01-29 16:57:20,099 - INFO - Features computed for radius 5 in 185.46 seconds
-2026-01-29 16:57:21,103 - INFO - Feature matrix shape: (4687257, 31)
-2026-01-29 16:57:21,103 - INFO - Performing prediction
-2026-01-29 16:57:28,225 - INFO - Writing results to ./output/segmentation/inf_chunk2_1.las
-2026-01-29 16:57:28,819 - INFO - Completed processing chunk 1
-2026-01-29 16:57:28,819 - INFO - Processing completed successfully
+2026-01-29 18:24:57,818 - INFO - Starting script.
+2026-01-29 18:24:57,818 - INFO - Configuration: {'model_path': './models/rf_3c_pkl', 'input_las_path': './output/maibach_hag.las', 'output_dir': './output/segmentation/', 'voxel_downsample': 0.1}
+2026-01-29 18:24:57,818 - INFO - Loading model from ./models/rf_3c_pkl
+2026-01-29 18:24:59,002 - INFO - Model loaded successfully
+2026-01-29 18:24:59,002 - INFO - Created output directory: ./output/segmentation/
+2026-01-29 18:24:59,661 - INFO - Model loaded successfully
+2026-01-29 18:24:59,661 - INFO - Processing input file: ./output/maibach_hag.las
+2026-01-29 18:24:59,661 - INFO - Total points in input file: 153676171
+2026-01-29 18:24:59,662 - INFO - Reading points from LAS file
+2026-01-29 18:25:06,106 - INFO - Points read with shape: (153676171, 7)
+2026-01-29 18:25:16,334 - INFO - Distance stats - max: 116.39183044433594, min: 0.0, mean: 4.078342457444386
+2026-01-29 18:25:16,334 - INFO - Applying voxel downsampling
+2026-01-29 18:28:39,770 - INFO - Downsampled point cloud shape: (15805515, 7)
+2026-01-29 18:28:40,832 - INFO - Distance stats - max: 116.39183044433594, min: 0.0, mean: 4.0880866053554135
+2026-01-29 18:28:41,256 - INFO - Sorting points by coordinates
+2026-01-29 18:28:46,704 - INFO - Processing 2 chunks of 10000000 points each
+2026-01-29 18:28:46,704 - INFO - Processing chunk 1/2, points 0 to 10000000
+2026-01-29 18:28:46,704 - INFO - Processing RGB array of shape (10000000, 3)
+2026-01-29 18:28:48,507 - INFO - Computing features for radius 0.125
+2026-01-29 18:28:48,507 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 18:31:31,936 - INFO - Features computed with shape: (10000000, 3)
+2026-01-29 18:31:31,937 - INFO - Features computed for radius 0.125 in 163.43 seconds
+2026-01-29 18:31:31,987 - INFO - Computing features for radius 0.25
+2026-01-29 18:31:31,987 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 18:34:16,251 - INFO - Features computed with shape: (10000000, 3)
+2026-01-29 18:34:16,251 - INFO - Features computed for radius 0.25 in 164.26 seconds
+2026-01-29 18:34:16,301 - INFO - Computing features for radius 0.5
+2026-01-29 18:34:16,301 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 18:37:02,839 - INFO - Features computed with shape: (10000000, 3)
+2026-01-29 18:37:02,839 - INFO - Features computed for radius 0.5 in 166.54 seconds
+2026-01-29 18:37:02,894 - INFO - Computing features for radius 0.75
+2026-01-29 18:37:02,894 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 18:39:53,250 - INFO - Features computed with shape: (10000000, 3)
+2026-01-29 18:39:53,251 - INFO - Features computed for radius 0.75 in 170.36 seconds
+2026-01-29 18:39:53,302 - INFO - Computing features for radius 1
+2026-01-29 18:39:53,302 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 18:42:38,399 - INFO - Features computed with shape: (10000000, 3)
+2026-01-29 18:42:38,399 - INFO - Features computed for radius 1 in 165.10 seconds
+2026-01-29 18:42:38,455 - INFO - Computing features for radius 2
+2026-01-29 18:42:38,455 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 18:45:22,249 - INFO - Features computed with shape: (10000000, 3)
+2026-01-29 18:45:22,249 - INFO - Features computed for radius 2 in 163.79 seconds
+2026-01-29 18:45:22,295 - INFO - Computing features for radius 3
+2026-01-29 18:45:22,295 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 18:48:35,138 - INFO - Features computed with shape: (10000000, 3)
+2026-01-29 18:48:35,139 - INFO - Features computed for radius 3 in 192.84 seconds
+2026-01-29 18:48:35,183 - INFO - Computing features for radius 5
+2026-01-29 18:48:35,183 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 18:58:21,750 - INFO - Features computed with shape: (10000000, 3)
+2026-01-29 18:58:21,750 - INFO - Features computed for radius 5 in 586.57 seconds
+2026-01-29 18:58:23,773 - INFO - Feature matrix shape: (9980045, 31)
+2026-01-29 18:58:23,774 - INFO - Performing prediction
+2026-01-29 18:58:37,519 - INFO - Writing results to ./output/segmentation/inf_chunk2_0.las
+2026-01-29 18:58:38,733 - INFO - Completed processing chunk 0
+2026-01-29 18:58:38,734 - INFO - Processing chunk 2/2, points 10000000 to 15805515
+2026-01-29 18:58:38,734 - INFO - Processing RGB array of shape (5805515, 3)
+2026-01-29 18:58:39,778 - INFO - Computing features for radius 0.125
+2026-01-29 18:58:39,778 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 19:00:15,396 - INFO - Features computed with shape: (5805515, 3)
+2026-01-29 19:00:15,396 - INFO - Features computed for radius 0.125 in 95.62 seconds
+2026-01-29 19:00:15,445 - INFO - Computing features for radius 0.25
+2026-01-29 19:00:15,445 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 19:01:51,604 - INFO - Features computed with shape: (5805515, 3)
+2026-01-29 19:01:51,604 - INFO - Features computed for radius 0.25 in 96.16 seconds
+2026-01-29 19:01:51,653 - INFO - Computing features for radius 0.5
+2026-01-29 19:01:51,653 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 19:03:28,723 - INFO - Features computed with shape: (5805515, 3)
+2026-01-29 19:03:28,723 - INFO - Features computed for radius 0.5 in 97.07 seconds
+2026-01-29 19:03:28,766 - INFO - Computing features for radius 0.75
+2026-01-29 19:03:28,767 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 19:05:07,188 - INFO - Features computed with shape: (5805515, 3)
+2026-01-29 19:05:07,188 - INFO - Features computed for radius 0.75 in 98.42 seconds
+2026-01-29 19:05:07,234 - INFO - Computing features for radius 1
+2026-01-29 19:05:07,234 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 19:06:41,681 - INFO - Features computed with shape: (5805515, 3)
+2026-01-29 19:06:41,681 - INFO - Features computed for radius 1 in 94.45 seconds
+2026-01-29 19:06:41,729 - INFO - Computing features for radius 2
+2026-01-29 19:06:41,730 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 19:08:24,377 - INFO - Features computed with shape: (5805515, 3)
+2026-01-29 19:08:24,377 - INFO - Features computed for radius 2 in 102.65 seconds
+2026-01-29 19:08:24,425 - INFO - Computing features for radius 3
+2026-01-29 19:08:24,425 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 19:10:04,099 - INFO - Features computed with shape: (5805515, 3)
+2026-01-29 19:10:04,099 - INFO - Features computed for radius 3 in 99.67 seconds
+2026-01-29 19:10:04,143 - INFO - Computing features for radius 5
+2026-01-29 19:10:04,143 - INFO - Features to compute: ['surface_variation', 'sphericity', 'verticality']
+2026-01-29 19:14:52,779 - INFO - Features computed with shape: (5805515, 3)
+2026-01-29 19:14:52,780 - INFO - Features computed for radius 5 in 288.64 seconds
+2026-01-29 19:14:53,971 - INFO - Feature matrix shape: (5785058, 31)
+2026-01-29 19:14:53,971 - INFO - Performing prediction
+2026-01-29 19:15:02,399 - INFO - Writing results to ./output/segmentation/inf_chunk2_1.las
+2026-01-29 19:15:03,134 - INFO - Completed processing chunk 1
+2026-01-29 19:15:03,134 - INFO - Processing completed successfully

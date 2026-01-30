@@ -1,11 +1,11 @@
-2026-01-29 16:12:33,484 - INFO - Starting script.
-2026-01-29 16:12:33,486 - INFO - Configuration: {'pcd_path': './input/Maibach_pointcloud_highquality_downsampled.las', 'cloth_resolution': 0.8, 'filename': 'maibach', 'max_interations': 250, 'path_out': './output', 'class_threshold': 0.5, 'sloopsmooth': True}
-2026-01-29 16:12:33,486 - INFO - Starting CSF filtering on file: ./input/Maibach_pointcloud_highquality_downsampled.las
-2026-01-29 16:12:33,486 - INFO - Parameters: cloth_resolution=0.8, max_iterations=250, class_threshold=0.5
-2026-01-29 16:12:34,638 - INFO - Total points to process: 64850511
-2026-01-29 16:14:01,539 - INFO - Ground points: 24617439, Non-ground points: 40233072
-2026-01-29 16:14:06,848 - INFO - Ground points saved to: ./output/maibach_ground.las
-2026-01-29 16:14:15,044 - INFO - Non-ground points saved to: ./output/maibach_non_ground.las
-2026-01-29 16:14:15,257 - INFO - CSF filtering completed successfully.
-2026-01-29 16:14:15,257 - INFO - Process finished
-2026-01-29 16:14:15,257 - INFO - Point cloud saved: ./output
+2026-01-29 18:19:04,423 - INFO - Starting script.
+2026-01-29 18:19:04,424 - INFO - Configuration: {'pcd_path': './input/Maibach_pointcloud_highquality_downsampled.las', 'cloth_resolution': 0.8, 'filename': 'maibach', 'max_interations': 250, 'path_out': './output', 'class_threshold': 0.5, 'sloopsmooth': True}
+2026-01-29 18:19:04,424 - INFO - Starting CSF filtering on file: ./input/Maibach_pointcloud_highquality_downsampled.las
+2026-01-29 18:19:04,424 - INFO - Parameters: cloth_resolution=0.8, max_iterations=250, class_threshold=0.5
+2026-01-29 18:19:07,172 - INFO - Total points to process: 153858117
+2026-01-29 18:22:27,170 - INFO - Ground points: 59064687, Non-ground points: 94793430
+2026-01-29 18:22:39,653 - INFO - Ground points saved to: ./output/maibach_ground.las
+2026-01-29 18:22:58,856 - INFO - Non-ground points saved to: ./output/maibach_non_ground.las
+2026-01-29 18:22:59,325 - INFO - CSF filtering completed successfully.
+2026-01-29 18:22:59,326 - INFO - Process finished
+2026-01-29 18:22:59,326 - INFO - Point cloud saved: ./output

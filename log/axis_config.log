@@ -1,37 +1,37 @@
-2026-01-29 17:03:44,666 - INFO - Starting main processing
-2026-01-29 17:03:44,667 - INFO - Configuration: {'input_shapefile': './input/object_extractions_Maibach/object_extractions/v3/street_pg.shp', 'point_cloud_path': './output/maibach_street.las', 'output_directory': './output/', 'filename': 'maibach_street', 'skeleton_resolution': 0.05, 'erode_radius': 30, 'min_distance': 2.0, 'batch_size': 300, 'k_nearest': 10}
-2026-01-29 17:03:44,667 - INFO - Loading input shapefile
-2026-01-29 17:03:44,727 - INFO - Loading point cloud data
-2026-01-29 17:03:44,881 - INFO - Output directory set to: ./output/
-2026-01-29 17:03:44,881 - INFO - Filtering street features
-2026-01-29 17:03:44,883 - INFO - Merging geometries
-2026-01-29 17:03:46,223 - INFO - Creating skeleton
-2026-01-29 17:03:46,223 - INFO - Starting skeleton creation
-2026-01-29 17:03:46,223 - INFO - Rasterizing geometry with dimensions 18440x20338
-2026-01-29 17:03:48,269 - INFO - Performing binary erosion with radius 30
-2026-01-29 17:04:03,845 - INFO - Creating skeleton
-2026-01-29 17:04:46,951 - INFO - Converting skeleton to lines
-2026-01-29 17:05:08,812 - INFO - Created 119914 line segments
-2026-01-29 17:05:08,828 - INFO - Calculating midpoints
-2026-01-29 17:05:09,769 - INFO - Filtering points by distance
-2026-01-29 17:05:09,769 - INFO - Filtering points with minimum distance of 2.0
-2026-01-29 17:05:10,414 - INFO - Processing 119914 points
-2026-01-29 17:05:12,433 - INFO - Filtered down to 3021 points
-2026-01-29 17:05:12,436 - INFO - Original points: 119914
-2026-01-29 17:05:12,436 - INFO - Filtered points: 3021
-2026-01-29 17:05:12,436 - INFO - Getting point elevations
-2026-01-29 17:05:12,436 - INFO - Getting elevations for 3021 points with batch size 300
-2026-01-29 17:05:12,451 - INFO - Processing points in batches
-2026-01-29 17:05:14,063 - INFO - Adding elevation data to GeoDataFrame
-2026-01-29 17:05:14,064 - INFO - Smoothing elevations
-2026-01-29 17:05:14,064 - INFO - Starting elevation smoothing with threshold=0.5 and n_neighbors=20
-2026-01-29 17:05:14,064 - INFO - Converting point coordinates to array
-2026-01-29 17:05:14,079 - INFO - Building KDTree for nearest neighbor search
-2026-01-29 17:05:14,080 - INFO - Getting elevation values
-2026-01-29 17:05:14,080 - INFO - Processing 3021 points
-2026-01-29 17:05:14,142 - INFO - Elevation smoothing completed
-2026-01-29 17:05:14,142 - INFO - Points before smoothing: 3021
-2026-01-29 17:05:14,142 - INFO - Points after smoothing: 3021
-2026-01-29 17:05:14,142 - INFO - Saving results to file
-2026-01-29 17:05:14,169 - INFO - Created 3,021 records
-2026-01-29 17:05:14,170 - INFO - Processing completed
+2026-01-29 19:28:07,503 - INFO - Starting main processing
+2026-01-29 19:28:07,505 - INFO - Configuration: {'input_shapefile': './input/object_extractions_Maibach/object_extractions/v3/street_pg.shp', 'point_cloud_path': './output/maibach_street.las', 'output_directory': './output/', 'filename': 'maibach_street', 'skeleton_resolution': 0.05, 'erode_radius': 30, 'min_distance': 2.0, 'batch_size': 300, 'k_nearest': 10}
+2026-01-29 19:28:07,505 - INFO - Loading input shapefile
+2026-01-29 19:28:07,565 - INFO - Loading point cloud data
+2026-01-29 19:28:07,899 - INFO - Output directory set to: ./output/
+2026-01-29 19:28:07,899 - INFO - Filtering street features
+2026-01-29 19:28:07,901 - INFO - Merging geometries
+2026-01-29 19:28:09,279 - INFO - Creating skeleton
+2026-01-29 19:28:09,279 - INFO - Starting skeleton creation
+2026-01-29 19:28:09,279 - INFO - Rasterizing geometry with dimensions 18440x20338
+2026-01-29 19:28:11,307 - INFO - Performing binary erosion with radius 30
+2026-01-29 19:28:26,824 - INFO - Creating skeleton
+2026-01-29 19:29:09,594 - INFO - Converting skeleton to lines
+2026-01-29 19:29:31,491 - INFO - Created 119914 line segments
+2026-01-29 19:29:31,506 - INFO - Calculating midpoints
+2026-01-29 19:29:32,426 - INFO - Filtering points by distance
+2026-01-29 19:29:32,426 - INFO - Filtering points with minimum distance of 2.0
+2026-01-29 19:29:33,051 - INFO - Processing 119914 points
+2026-01-29 19:29:35,152 - INFO - Filtered down to 3021 points
+2026-01-29 19:29:35,155 - INFO - Original points: 119914
+2026-01-29 19:29:35,155 - INFO - Filtered points: 3021
+2026-01-29 19:29:35,156 - INFO - Getting point elevations
+2026-01-29 19:29:35,156 - INFO - Getting elevations for 3021 points with batch size 300
+2026-01-29 19:29:35,170 - INFO - Processing points in batches
+2026-01-29 19:29:37,873 - INFO - Adding elevation data to GeoDataFrame
+2026-01-29 19:29:37,874 - INFO - Smoothing elevations
+2026-01-29 19:29:37,874 - INFO - Starting elevation smoothing with threshold=0.5 and n_neighbors=20
+2026-01-29 19:29:37,874 - INFO - Converting point coordinates to array
+2026-01-29 19:29:37,889 - INFO - Building KDTree for nearest neighbor search
+2026-01-29 19:29:37,890 - INFO - Getting elevation values
+2026-01-29 19:29:37,890 - INFO - Processing 3021 points
+2026-01-29 19:29:37,950 - INFO - Elevation smoothing completed
+2026-01-29 19:29:37,950 - INFO - Points before smoothing: 3021
+2026-01-29 19:29:37,950 - INFO - Points after smoothing: 3021
+2026-01-29 19:29:37,950 - INFO - Saving results to file
+2026-01-29 19:29:37,972 - INFO - Created 3,021 records
+2026-01-29 19:29:37,972 - INFO - Processing completed

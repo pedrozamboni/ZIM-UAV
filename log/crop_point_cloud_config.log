@@ -1,8 +1,8 @@
-2026-01-29 16:57:38,042 - INFO - Starting script.
-2026-01-29 16:57:38,043 - INFO - Configuration file loaded successfully.
-2026-01-29 16:57:38,043 - INFO - Configuration: {'shapefile_path': './input/object_extractions_Maibach/object_extractions/v3/street_pg.shp', 'polygon_type': ['street_paved', 'sidewalk'], 'point_cloud_path': './output/maibach_ground.las', 'output_las': './output/maibach_street.las', 'buffer_distance': 0.3}
-2026-01-29 16:58:17,691 - INFO - Shapefile processed and geometry prepared.
-2026-01-29 16:58:17,835 - INFO - Crop initialization
-2026-01-29 16:59:21,010 - INFO - Cropping completed successfully.
-2026-01-29 16:59:21,745 - INFO - Process finished
-2026-01-29 16:59:21,745 - INFO - Point cloud saved: ./output/maibach_street.las
+2026-01-29 19:15:12,752 - INFO - Starting script.
+2026-01-29 19:15:12,753 - INFO - Configuration file loaded successfully.
+2026-01-29 19:15:12,753 - INFO - Configuration: {'shapefile_path': './input/object_extractions_Maibach/object_extractions/v3/street_pg.shp', 'polygon_type': ['street_paved', 'sidewalk'], 'point_cloud_path': './output/maibach_ground.las', 'output_las': './output/maibach_street.las', 'buffer_distance': 0.3}
+2026-01-29 19:15:51,583 - INFO - Shapefile processed and geometry prepared.
+2026-01-29 19:15:52,658 - INFO - Crop initialization
+2026-01-29 19:17:52,298 - INFO - Cropping completed successfully.
+2026-01-29 19:17:52,951 - INFO - Process finished
+2026-01-29 19:17:52,952 - INFO - Point cloud saved: ./output/maibach_street.las
