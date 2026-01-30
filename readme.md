@@ -34,9 +34,9 @@ A Docker-based pipeline for processing UAV and ALS point cloud data, featuring g
 This project provides a complete, containerized workflow for processing airborne LiDAR data from both UAV and ALS sources. The pipeline includes:
 
 - **Ground Classification**: CSF (Cloth Simulation Filter) for ground/non-ground separation
-- **Machine Learning Segmentation**: RF/XGBoost models for ground, roof, and street classification
+- **Machine Learning Segmentation**: RF/XGBoost models for point cloud segmentation 
 - **Roof Extraction**: RANSAC-based plane segmentation with geometric analysis
-- **Street Axis Extraction**: Automated centerline extraction with elevation data
+- **Street Axis Extraction**: Automated street centerline extraction with elevation data
 - **Curb Detection**: ML-based curb identification and mapping
 - **Data Fusion**: UAV-ALS data merging with ICP registration and Gaussian weighting
 - **Object Extraction**: Automated extraction of specific features from point clouds
@@ -44,7 +44,6 @@ This project provides a complete, containerized workflow for processing airborne
 ## 📋 Requirements
 
 ### System Requirements
-- **OS**: Ubuntu 22.04 or compatible Linux distribution
 - **RAM**: 64 GB minimum (recommended for large datasets)
 - **CPU**: 10+ cores recommended
 - **Storage**: 50+ GB free space for data and models
@@ -99,20 +98,27 @@ zim_results_docker/
 ├── docker-compose.yml          # Container orchestration
 ├── Dockerfile                  # Container definition
 ├── requirements.txt            # Python dependencies
-├── start.sh                    # Build and start container
+├── start.sh                    # Build and start container - container can also be started using docker-compose up -d 
 ├── shell.sh                    # Access container shell
-├── stop.sh                     # Stop container
+├── stop.sh                     # Stop container -  container can also be stopped using docker-compose down
 │
 ├── input/                      # Raw input data
 │   ├── *.las                   # Point cloud files
 │   └── object_extractions_*/   # Shapefiles
 │
 ├── output/                     # Processing results
-│   ├── *_ground.las
-│   ├── *_non_ground.las
-│   ├── *_roofs.shp
-│   ├── *_street.shp
-│   └── segmentation/
+│   ├── *_ground.las            # ground point
+│   ├── *_non_ground.las        # non-ground points
+    ├── *_ground_raw.tif        # raw dem file
+    ├── *_ground_final.tif      # final dem file  
+    ├── *_hag.las               # point cloud with point distance to the ground 
+    ├── *_curb_inference.las    # raw curb inference results 
+    ├── *_curb_inference_curb_class1.las    #  curb point point cloud 
+    ├── *_curb_inference_curb_class1.shp    #  curb points shapefile   
+│   ├── *_roofs.shp             # individual roof with inclination and direction shapefile
+│   ├── *_street.shp            # street axis point with elevation shapefile
+    ├── segmentation/all.las         # segemented point cloud
+│   └── segmentation/all_roof.las    # segemented roof point cloud
 │
 ├── configs/                    # YAML configuration files
 │   ├── csf_config.yml
