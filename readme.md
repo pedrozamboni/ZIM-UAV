@@ -11,6 +11,24 @@ A Docker-based pipeline for processing UAV and ALS point cloud data, featuring g
   - Gaussian weighting parameters
   - Output paths and file naming
 
+### Shell Scripts to Develop
+- [ ] `shell/run_segmentation_training.sh` - Automated segmentation model training pipeline
+  - Feature extraction
+  - Model training (RF/XGBoost)
+  - Model validation
+  - Model export
+
+- [ ] `shell/run_curb_training.sh` - Automated curb detection model training
+  - Training data preparation
+  - Feature computation
+  - Model training
+  - Performance evaluation
+
+- [ ] `shell/run_fusion.sh` - Complete fusion workflow automation
+  - Point cloud registration (ICP)
+  - Stable area detection
+  - Gaussian fusion
+  - Quality assessment
 ## 🎯 Overview
 
 This project provides a complete, containerized workflow for processing airborne LiDAR data from both UAV and ALS sources. The pipeline includes:
