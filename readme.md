@@ -2,6 +2,15 @@
 
 A Docker-based pipeline for processing UAV and ALS point cloud data, featuring ground classification, segmentation, roof extraction, street axis detection, curb mapping, and data fusion capabilities.
 
+## 📋 TODO
+
+### Configuration Files Needed
+- [ ] Create `configs/fusion_config.yml` - Configuration for UAV-ALS data fusion workflow
+  - ICP parameters
+  - Stable area detection settings
+  - Gaussian weighting parameters
+  - Output paths and file naming
+
 ## 🎯 Overview
 
 This project provides a complete, containerized workflow for processing airborne LiDAR data from both UAV and ALS sources. The pipeline includes:
